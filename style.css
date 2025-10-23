@@ -46,6 +46,8 @@ header {
     margin-bottom: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     animation: slideUp 0.5s ease-out;
+    position: relative;
+    overflow: visible;
 }
 
 @keyframes slideUp {
@@ -189,16 +191,17 @@ header {
 /* Dropdown */
 .dropdown {
     position: absolute;
-    z-index: 100;
+    z-index: 1000;
     width: 100%;
-    max-height: 250px;
+    max-height: 200px;
     overflow-y: auto;
     background: white;
     border: 2px solid #e0e0e0;
     border-top: none;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     display: none;
+    margin-top: -2px;
 }
 
 .dropdown.active {
