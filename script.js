@@ -1,186 +1,54 @@
-// Complete GMC Policy Data with Inclusions, Exclusions, Remarks
-const policyData = {
-    'Tata Consultancy Services': {
-        hasGrades: true,
-        grades: [
-            {
-                id: 'platinum-plus',
-                name: 'Platinum Plus',
-                roomRent: 'Single A/C Room',
-                generalCopay: '0%',
-                intimationCopay: '10% if not done within 3 days',
-                preOp: '30 days',
-                postOp: '60 days',
-                refractivePower: '±7.5',
-                exclusions: 'Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War, Congenital External, Congenital External Life Threatening, Alcohol Drug Abuse, Hearing Aid, Obstructive Sleep Apnoea',
-                inclusions: 'Normal ailments, Vitiligo, Infertility, Conventional chemotherapy, Surgery, Cancer care, AIDS, Psychiatric treatment',
-                remarks: 'Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.',
-                treatments: {
-                    'Robotic surgeries': { cap: '₹1 Crore', copay: '0%' },
-                    'Cyberknife': { cap: '₹6 Lakhs', copay: '0%' },
-                    'Joint Replacement-single': { cap: '₹2.5 Lakhs', copay: '0%' },
-                    'Joint Replacement-double': { cap: '₹4 Lakhs', copay: '0%' },
-                    'Cataract': { cap: '₹40,000', copay: '0%' },
-                    'Maternity Normal': { cap: '₹75,000', copay: '0%' },
-                    'Maternity C-Section': { cap: '₹1 Lakh', copay: '0%' },
-                    'Infertility': { cap: '₹2 Lakhs', copay: '0%' },
-                    'Hysterectomy': { cap: '₹1 Lakh', copay: '0%' },
-                    'Balloon Sinuplasty': { cap: '₹4 Lakhs', copay: '0%' }
-                }
-            },
-            {
-                id: 'platinum',
-                name: 'Platinum',
-                roomRent: 'Single A/C Room',
-                generalCopay: '12.5%',
-                intimationCopay: '10% if not done within 3 days',
-                preOp: '30 days',
-                postOp: '60 days',
-                refractivePower: '±7.5',
-                exclusions: 'Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War',
-                inclusions: 'Normal ailments, Vitiligo, Infertility, Cancer care, Psychiatric treatment',
-                remarks: 'Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.',
-                treatments: {
-                    'Robotic surgeries': { cap: '₹1 Crore', copay: '12.5%' },
-                    'Cyberknife': { cap: '₹6 Lakhs', copay: '12.5%' },
-                    'Joint Replacement-single': { cap: '₹2.5 Lakhs', copay: '12.5%' },
-                    'Cataract': { cap: '₹40,000', copay: '12.5%' }
-                }
-            },
-            {
-                id: 'gold-plus',
-                name: 'Gold Plus',
-                roomRent: 'Single A/C for Employee, Twin Sharing for Parents',
-                generalCopay: '10%',
-                intimationCopay: '10% if not done within 3 days',
-                preOp: '30 days',
-                postOp: '60 days',
-                refractivePower: '±7.5',
-                exclusions: 'Alcohol Drug Illness, Cosmetic, Egg Freezing, Hazardous Sports, Surrogacy Delivery',
-                inclusions: 'Normal ailments, Vitiligo, Infertility, Cancer care',
-                remarks: 'Bariatric surgery covered if BMI ≥ 40. 10% copay if intimation is not done within 3 days.',
-                treatments: {
-                    'Robotic surgeries': { cap: '₹1 Crore', copay: '10%' },
-                    'Cataract': { cap: '₹40,000', copay: '10%' }
-                }
-            }
-        ]
-    },
-    'Cognizant Technology Solutions': {
-        hasGrades: true,
-        grades: [
-            {
-                id: 'level-1',
-                name: 'Level 1',
-                roomRent: '₹4,000/day (Normal), ICU: As per actuals',
-                generalCopay: '10%',
-                intimationCopay: '15% if not done',
-                preOp: '30 days',
-                postOp: '60 days',
-                refractivePower: '±5',
-                exclusions: 'Alcohol/Drug abuse, Cosmetic procedures, Surrogacy Delivery, War, Self-injury, Hazardous Sports',
-                inclusions: 'Pre-existing conditions, Congenital internal and external (as listed), Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35)',
-                remarks: '100% approval for VIP employees. No copay for workplace accidents. Ambulance: 1% of SI or ₹2,000.',
-                treatments: {
-                    'Cataract': { cap: '₹35,000', copay: '10%' },
-                    'Maternity': { cap: '₹75,000', copay: '10%' },
-                    'Joint Replacement-single': { cap: '₹2 Lakhs', copay: '10%' },
-                    'Joint Replacement-double': { cap: '₹3 Lakhs', copay: '10%' },
-                    'Hysterectomy': { cap: '₹75,000', copay: '10%' }
-                }
-            },
-            {
-                id: 'level-2',
-                name: 'Level 2',
-                roomRent: '₹4,000/day (Normal), ICU: As per actuals',
-                generalCopay: '10%',
-                intimationCopay: '15% if not done',
-                preOp: '30 days',
-                postOp: '60 days',
-                refractivePower: '±5',
-                exclusions: 'Alcohol/Drug abuse, Cosmetic procedures, Surrogacy Delivery',
-                inclusions: 'Pre-existing conditions, Congenital conditions, Critical illness',
-                remarks: '100% approval for VIP employees. Ambulance coverage included.',
-                treatments: {
-                    'Cataract': { cap: '₹35,000', copay: '10%' },
-                    'Maternity': { cap: '₹75,000', copay: '10%' }
-                }
-            }
-        ]
-    },
-    'Reliance Retail Limited': {
-        hasGrades: true,
-        grades: [
-            {
-                id: 'supervisory',
-                name: 'Supervisory',
-                roomRent: 'Twin Sharing A/C Room',
-                generalCopay: '0%',
-                intimationCopay: '0%',
-                preOp: '30 days',
-                postOp: '60 days',
-                refractivePower: '±7.0',
-                exclusions: 'Breech Of Law, Cosmetic, Alcohol Drug Abuse, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, War, STD, Dental, Health Check, HIV AIDS, Surrogacy Delivery',
-                inclusions: 'Pre-existing conditions, Congenital internal and external, Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35)',
-                remarks: 'Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.',
-                treatments: {
-                    'Cataract': { cap: '₹60,000', copay: '0%' },
-                    'Maternity': { cap: '₹50,000', copay: '0%' },
-                    'Robotic Surgeries': { cap: '50% of bill', copay: '0%' }
-                }
-            },
-            {
-                id: 'executive',
-                name: 'Executive',
-                roomRent: 'Single A/C Room',
-                generalCopay: '0%',
-                intimationCopay: '0%',
-                preOp: '30 days',
-                postOp: '60 days',
-                refractivePower: '±7.0',
-                exclusions: 'Breech Of Law, Cosmetic, Alcohol Drug Abuse, Hazardous Sports',
-                inclusions: 'Pre-existing conditions, Congenital conditions, Critical illness, Bariatric surgery',
-                remarks: 'Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.',
-                treatments: {
-                    'Cataract': { cap: '₹60,000', copay: '0%' },
-                    'Maternity': { cap: '₹50,000', copay: '0%' }
-                }
-            }
-        ]
-    },
-    'Infosys Limited': {
-        hasGrades: false,
-        grades: [
-            {
-                id: 'default',
-                name: 'Default',
-                roomRent: 'Single A/C Room',
-                generalCopay: '10%',
-                intimationCopay: '15% if not done within 48 hours',
-                preOp: '30 days',
-                postOp: '60 days',
-                refractivePower: '±6',
-                exclusions: 'Cosmetic procedures, Surrogacy, Hazardous Sports, Self-injury',
-                inclusions: 'Pre-existing conditions, Maternity, Critical illness, Cancer care',
-                remarks: 'Standard corporate policy. Cashless facility available at network hospitals.',
-                treatments: {
-                    'Cataract': { cap: '₹45,000', copay: '10%' },
-                    'Joint Replacement-single': { cap: '₹2 Lakhs', copay: '10%' },
-                    'Maternity': { cap: '₹80,000', copay: '10%' }
-                }
-            }
-        ]
-    }
-};
+// Global policy data variable (will be loaded from JSON)
+let policyData = {};
 
 // Global variables
 let selectedCorporate = 'Tata Consultancy Services';
 let selectedGrade = '';
 let currentTreatment = '';
 
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', function() {
+// Load policy data from JSON file
+async function loadPolicyData() {
+    try {
+        const response = await fetch('policy_data_structured.json');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        policyData = await response.json();
+        console.log('Policy data loaded successfully!');
+        
+        // Initialize the app after data is loaded
+        initializeApp();
+        
+    } catch (error) {
+        console.error('Error loading policy data:', error);
+        
+        // Show user-friendly error message
+        const container = document.querySelector('.container');
+        if (container) {
+            container.innerHTML = `
+                <div class="card alert-box">
+                    <h4>⚠️ Error Loading Data</h4>
+                    <p>Unable to load policy information. Please make sure the <code>policy_data_structured.json</code> file is in the same directory as this page.</p>
+                    <p><strong>Error details:</strong> ${error.message}</p>
+                    <button onclick="location.reload()" class="btn-primary" style="margin-top: 20px;">
+                        🔄 Retry
+                    </button>
+                </div>
+            `;
+        }
+    }
+}
+
+// Initialize app after data loads
+function initializeApp() {
     loadGrades();
+}
+
+// Initialize on page load - Load JSON data first
+document.addEventListener('DOMContentLoaded', function() {
+    loadPolicyData();
 });
 
 // Toggle Corporate Edit Mode
@@ -535,6 +403,547 @@ function showScreen(screenId) {
     screens.forEach(screen => screen.classList.remove('active'));
     document.getElementById(screenId).classList.add('active');
 }
+
+
+
+
+// Complete GMC Policy Data with Inclusions, Exclusions, Remarks
+// const policyData = {
+//     'Tata Consultancy Services': {
+//         hasGrades: true,
+//         grades: [
+//             {
+//                 id: 'platinum-plus',
+//                 name: 'Platinum Plus',
+//                 roomRent: 'Single A/C Room',
+//                 generalCopay: '0%',
+//                 intimationCopay: '10% if not done within 3 days',
+//                 preOp: '30 days',
+//                 postOp: '60 days',
+//                 refractivePower: '±7.5',
+//                 exclusions: 'Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War, Congenital External, Congenital External Life Threatening, Alcohol Drug Abuse, Hearing Aid, Obstructive Sleep Apnoea',
+//                 inclusions: 'Normal ailments, Vitiligo, Infertility, Conventional chemotherapy, Surgery, Cancer care, AIDS, Psychiatric treatment',
+//                 remarks: 'Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.',
+//                 treatments: {
+//                     'Robotic surgeries': { cap: '₹1 Crore', copay: '0%' },
+//                     'Cyberknife': { cap: '₹6 Lakhs', copay: '0%' },
+//                     'Joint Replacement-single': { cap: '₹2.5 Lakhs', copay: '0%' },
+//                     'Joint Replacement-double': { cap: '₹4 Lakhs', copay: '0%' },
+//                     'Cataract': { cap: '₹40,000', copay: '0%' },
+//                     'Maternity Normal': { cap: '₹75,000', copay: '0%' },
+//                     'Maternity C-Section': { cap: '₹1 Lakh', copay: '0%' },
+//                     'Infertility': { cap: '₹2 Lakhs', copay: '0%' },
+//                     'Hysterectomy': { cap: '₹1 Lakh', copay: '0%' },
+//                     'Balloon Sinuplasty': { cap: '₹4 Lakhs', copay: '0%' }
+//                 }
+//             },
+//             {
+//                 id: 'platinum',
+//                 name: 'Platinum',
+//                 roomRent: 'Single A/C Room',
+//                 generalCopay: '12.5%',
+//                 intimationCopay: '10% if not done within 3 days',
+//                 preOp: '30 days',
+//                 postOp: '60 days',
+//                 refractivePower: '±7.5',
+//                 exclusions: 'Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War',
+//                 inclusions: 'Normal ailments, Vitiligo, Infertility, Cancer care, Psychiatric treatment',
+//                 remarks: 'Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.',
+//                 treatments: {
+//                     'Robotic surgeries': { cap: '₹1 Crore', copay: '12.5%' },
+//                     'Cyberknife': { cap: '₹6 Lakhs', copay: '12.5%' },
+//                     'Joint Replacement-single': { cap: '₹2.5 Lakhs', copay: '12.5%' },
+//                     'Cataract': { cap: '₹40,000', copay: '12.5%' }
+//                 }
+//             },
+//             {
+//                 id: 'gold-plus',
+//                 name: 'Gold Plus',
+//                 roomRent: 'Single A/C for Employee, Twin Sharing for Parents',
+//                 generalCopay: '10%',
+//                 intimationCopay: '10% if not done within 3 days',
+//                 preOp: '30 days',
+//                 postOp: '60 days',
+//                 refractivePower: '±7.5',
+//                 exclusions: 'Alcohol Drug Illness, Cosmetic, Egg Freezing, Hazardous Sports, Surrogacy Delivery',
+//                 inclusions: 'Normal ailments, Vitiligo, Infertility, Cancer care',
+//                 remarks: 'Bariatric surgery covered if BMI ≥ 40. 10% copay if intimation is not done within 3 days.',
+//                 treatments: {
+//                     'Robotic surgeries': { cap: '₹1 Crore', copay: '10%' },
+//                     'Cataract': { cap: '₹40,000', copay: '10%' }
+//                 }
+//             }
+//         ]
+//     },
+//     'Cognizant Technology Solutions': {
+//         hasGrades: true,
+//         grades: [
+//             {
+//                 id: 'level-1',
+//                 name: 'Level 1',
+//                 roomRent: '₹4,000/day (Normal), ICU: As per actuals',
+//                 generalCopay: '10%',
+//                 intimationCopay: '15% if not done',
+//                 preOp: '30 days',
+//                 postOp: '60 days',
+//                 refractivePower: '±5',
+//                 exclusions: 'Alcohol/Drug abuse, Cosmetic procedures, Surrogacy Delivery, War, Self-injury, Hazardous Sports',
+//                 inclusions: 'Pre-existing conditions, Congenital internal and external (as listed), Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35)',
+//                 remarks: '100% approval for VIP employees. No copay for workplace accidents. Ambulance: 1% of SI or ₹2,000.',
+//                 treatments: {
+//                     'Cataract': { cap: '₹35,000', copay: '10%' },
+//                     'Maternity': { cap: '₹75,000', copay: '10%' },
+//                     'Joint Replacement-single': { cap: '₹2 Lakhs', copay: '10%' },
+//                     'Joint Replacement-double': { cap: '₹3 Lakhs', copay: '10%' },
+//                     'Hysterectomy': { cap: '₹75,000', copay: '10%' }
+//                 }
+//             },
+//             {
+//                 id: 'level-2',
+//                 name: 'Level 2',
+//                 roomRent: '₹4,000/day (Normal), ICU: As per actuals',
+//                 generalCopay: '10%',
+//                 intimationCopay: '15% if not done',
+//                 preOp: '30 days',
+//                 postOp: '60 days',
+//                 refractivePower: '±5',
+//                 exclusions: 'Alcohol/Drug abuse, Cosmetic procedures, Surrogacy Delivery',
+//                 inclusions: 'Pre-existing conditions, Congenital conditions, Critical illness',
+//                 remarks: '100% approval for VIP employees. Ambulance coverage included.',
+//                 treatments: {
+//                     'Cataract': { cap: '₹35,000', copay: '10%' },
+//                     'Maternity': { cap: '₹75,000', copay: '10%' }
+//                 }
+//             }
+//         ]
+//     },
+//     'Reliance Retail Limited': {
+//         hasGrades: true,
+//         grades: [
+//             {
+//                 id: 'supervisory',
+//                 name: 'Supervisory',
+//                 roomRent: 'Twin Sharing A/C Room',
+//                 generalCopay: '0%',
+//                 intimationCopay: '0%',
+//                 preOp: '30 days',
+//                 postOp: '60 days',
+//                 refractivePower: '±7.0',
+//                 exclusions: 'Breech Of Law, Cosmetic, Alcohol Drug Abuse, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, War, STD, Dental, Health Check, HIV AIDS, Surrogacy Delivery',
+//                 inclusions: 'Pre-existing conditions, Congenital internal and external, Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35)',
+//                 remarks: 'Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.',
+//                 treatments: {
+//                     'Cataract': { cap: '₹60,000', copay: '0%' },
+//                     'Maternity': { cap: '₹50,000', copay: '0%' },
+//                     'Robotic Surgeries': { cap: '50% of bill', copay: '0%' }
+//                 }
+//             },
+//             {
+//                 id: 'executive',
+//                 name: 'Executive',
+//                 roomRent: 'Single A/C Room',
+//                 generalCopay: '0%',
+//                 intimationCopay: '0%',
+//                 preOp: '30 days',
+//                 postOp: '60 days',
+//                 refractivePower: '±7.0',
+//                 exclusions: 'Breech Of Law, Cosmetic, Alcohol Drug Abuse, Hazardous Sports',
+//                 inclusions: 'Pre-existing conditions, Congenital conditions, Critical illness, Bariatric surgery',
+//                 remarks: 'Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.',
+//                 treatments: {
+//                     'Cataract': { cap: '₹60,000', copay: '0%' },
+//                     'Maternity': { cap: '₹50,000', copay: '0%' }
+//                 }
+//             }
+//         ]
+//     },
+//     'Infosys Limited': {
+//         hasGrades: false,
+//         grades: [
+//             {
+//                 id: 'default',
+//                 name: 'Default',
+//                 roomRent: 'Single A/C Room',
+//                 generalCopay: '10%',
+//                 intimationCopay: '15% if not done within 48 hours',
+//                 preOp: '30 days',
+//                 postOp: '60 days',
+//                 refractivePower: '±6',
+//                 exclusions: 'Cosmetic procedures, Surrogacy, Hazardous Sports, Self-injury',
+//                 inclusions: 'Pre-existing conditions, Maternity, Critical illness, Cancer care',
+//                 remarks: 'Standard corporate policy. Cashless facility available at network hospitals.',
+//                 treatments: {
+//                     'Cataract': { cap: '₹45,000', copay: '10%' },
+//                     'Joint Replacement-single': { cap: '₹2 Lakhs', copay: '10%' },
+//                     'Maternity': { cap: '₹80,000', copay: '10%' }
+//                 }
+//             }
+//         ]
+//     }
+// };
+
+// // Global variables
+// let selectedCorporate = 'Tata Consultancy Services';
+// let selectedGrade = '';
+// let currentTreatment = '';
+
+// // Initialize on page load
+// document.addEventListener('DOMContentLoaded', function() {
+//     loadGrades();
+// });
+
+// // Toggle Corporate Edit Mode
+// function toggleCorporateEdit() {
+//     const display = document.getElementById('corporateDisplay');
+//     const edit = document.getElementById('corporateEdit');
+//     const input = document.getElementById('corporateInput');
+    
+//     display.style.display = 'none';
+//     edit.style.display = 'block';
+//     input.value = selectedCorporate;
+//     input.focus();
+// }
+
+// // Filter Corporates
+// function filterCorporates() {
+//     const input = document.getElementById('corporateInput').value.toLowerCase();
+//     const dropdown = document.getElementById('corporateDropdown');
+    
+//     if (input.length === 0) {
+//         dropdown.classList.remove('active');
+//         return;
+//     }
+    
+//     const matches = Object.keys(policyData).filter(name => 
+//         name.toLowerCase().includes(input)
+//     );
+    
+//     if (matches.length > 0) {
+//         dropdown.innerHTML = matches.map(name => 
+//             `<div class="dropdown-item" onclick="selectCorporate('${name}')">${name}</div>`
+//         ).join('');
+//         dropdown.classList.add('active');
+//     } else {
+//         dropdown.innerHTML = '<div class="dropdown-item" style="color: #999;">No matching companies found</div>';
+//         dropdown.classList.add('active');
+//     }
+// }
+
+// // Select Corporate
+// function selectCorporate(name) {
+//     selectedCorporate = name;
+//     document.getElementById('selectedCorporateName').textContent = name;
+//     document.getElementById('corporateInput').value = name;
+//     document.getElementById('corporateDropdown').classList.remove('active');
+// }
+
+// // Confirm Corporate Selection
+// function confirmCorporate() {
+//     const input = document.getElementById('corporateInput').value;
+    
+//     if (policyData[input]) {
+//         selectedCorporate = input;
+//         document.getElementById('selectedCorporateName').textContent = input;
+//     }
+    
+//     cancelCorporateEdit();
+//     loadGrades();
+// }
+
+// // Cancel Corporate Edit
+// function cancelCorporateEdit() {
+//     document.getElementById('corporateDisplay').style.display = 'block';
+//     document.getElementById('corporateEdit').style.display = 'none';
+//     document.getElementById('corporateDropdown').classList.remove('active');
+// }
+
+// // Load Grades based on selected corporate
+// function loadGrades() {
+//     const corporate = policyData[selectedCorporate];
+//     const gradeSection = document.getElementById('gradeSection');
+//     const decodeBtn = document.getElementById('decodeBtn');
+    
+//     if (!corporate) return;
+    
+//     // If single grade or no grades, auto-select
+//     if (!corporate.hasGrades || corporate.grades.length === 1) {
+//         selectedGrade = corporate.grades[0].id;
+//         gradeSection.innerHTML = `
+//             <div class="grade-auto">
+//                 <span class="icon">✅</span>
+//                 <div class="grade-auto-text">
+//                     <h3>${corporate.grades[0].name} (Auto-selected)</h3>
+//                     <p>Your company has a single policy tier</p>
+//                 </div>
+//             </div>
+//         `;
+//         decodeBtn.disabled = false;
+//         showTreatmentCard();
+//     } else {
+//         // Multiple grades - show dropdown
+//         gradeSection.innerHTML = `
+//             <select id="gradeSelect" class="input-field" onchange="handleGradeChange()">
+//                 <option value="">-- Select Grade --</option>
+//                 ${corporate.grades.map(grade => 
+//                     `<option value="${grade.id}">${grade.name}</option>`
+//                 ).join('')}
+//             </select>
+//         `;
+//         selectedGrade = '';
+//         decodeBtn.disabled = true;
+//         document.getElementById('treatmentCard').style.display = 'none';
+//     }
+// }
+
+// // Handle Grade Change
+// function handleGradeChange() {
+//     const select = document.getElementById('gradeSelect');
+//     selectedGrade = select.value;
+    
+//     if (selectedGrade) {
+//         document.getElementById('decodeBtn').disabled = false;
+//         showTreatmentCard();
+//     } else {
+//         document.getElementById('decodeBtn').disabled = true;
+//         document.getElementById('treatmentCard').style.display = 'none';
+//     }
+// }
+
+// // Show Treatment Card
+// function showTreatmentCard() {
+//     document.getElementById('treatmentCard').style.display = 'block';
+// }
+
+// // Get all available treatments for selected grade
+// function getAvailableTreatments() {
+//     const corporate = policyData[selectedCorporate];
+//     const grade = corporate.grades.find(g => g.id === selectedGrade);
+    
+//     if (!grade) return [];
+    
+//     return Object.keys(grade.treatments);
+// }
+
+// // Filter Treatments
+// function filterTreatments() {
+//     const input = document.getElementById('treatmentSearch').value.toLowerCase();
+//     const dropdown = document.getElementById('treatmentDropdown');
+    
+//     if (input.length === 0) {
+//         dropdown.classList.remove('active');
+//         return;
+//     }
+    
+//     const treatments = getAvailableTreatments();
+//     const matches = treatments.filter(name => 
+//         name.toLowerCase().includes(input)
+//     );
+    
+//     let html = '';
+    
+//     if (matches.length > 0) {
+//         html = matches.map(name => 
+//             `<div class="dropdown-item" onclick="selectTreatment('${name}')">${name}</div>`
+//         ).join('');
+//     }
+    
+//     // Always add "Item not in list" option
+//     html += `<div class="dropdown-item not-in-list" onclick="selectTreatment('not-in-list')">❌ Item not in list</div>`;
+    
+//     dropdown.innerHTML = html;
+//     dropdown.classList.add('active');
+// }
+
+// // Show Treatment Dropdown
+// function showTreatmentDropdown() {
+//     const input = document.getElementById('treatmentSearch').value;
+//     if (input.length > 0) {
+//         filterTreatments();
+//     } else {
+//         const treatments = getAvailableTreatments();
+//         const dropdown = document.getElementById('treatmentDropdown');
+        
+//         let html = treatments.map(name => 
+//             `<div class="dropdown-item" onclick="selectTreatment('${name}')">${name}</div>`
+//         ).join('');
+        
+//         html += `<div class="dropdown-item not-in-list" onclick="selectTreatment('not-in-list')">❌ Item not in list</div>`;
+        
+//         dropdown.innerHTML = html;
+//         dropdown.classList.add('active');
+//     }
+// }
+
+// // Select Treatment
+// function selectTreatment(name) {
+//     if (name === 'not-in-list') {
+//         currentTreatment = 'not-in-list';
+//         document.getElementById('treatmentSearch').value = 'Treatment not in list';
+//     } else {
+//         currentTreatment = name;
+//         document.getElementById('treatmentSearch').value = name;
+//     }
+//     document.getElementById('treatmentDropdown').classList.remove('active');
+// }
+
+// // Close dropdowns when clicking outside
+// document.addEventListener('click', function(e) {
+//     if (!e.target.closest('#corporateEdit')) {
+//         document.getElementById('corporateDropdown').classList.remove('active');
+//     }
+//     if (!e.target.closest('#treatmentCard')) {
+//         document.getElementById('treatmentDropdown').classList.remove('active');
+//     }
+// });
+
+// // Decode Benefits - Main Function
+// function decodeBenefits() {
+//     if (!selectedCorporate || !selectedGrade) {
+//         alert('Please select a company and grade first!');
+//         return;
+//     }
+    
+//     const corporate = policyData[selectedCorporate];
+//     const grade = corporate.grades.find(g => g.id === selectedGrade);
+    
+//     if (!grade) return;
+    
+//     let resultsHTML = '';
+    
+//     // Treatment-specific result
+//     if (currentTreatment && currentTreatment !== 'not-in-list') {
+//         const treatment = grade.treatments[currentTreatment];
+//         if (treatment) {
+//             resultsHTML += `
+//                 <div class="card treatment-highlight">
+//                     <h3>✅ ${currentTreatment} Coverage</h3>
+//                     <div class="coverage-row">
+//                         <span>Maximum Coverage:</span>
+//                         <span class="coverage-value">${treatment.cap}</span>
+//                     </div>
+//                     <div class="coverage-row">
+//                         <span>Your Copay:</span>
+//                         <span class="coverage-value">${treatment.copay}</span>
+//                     </div>
+//                     <div style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.2); border-radius: 8px;">
+//                         <small><strong>Pre-Op:</strong> ${grade.preOp} | <strong>Post-Op:</strong> ${grade.postOp}</small>
+//                     </div>
+//                 </div>
+//             `;
+//         }
+//     } else if (currentTreatment === 'not-in-list') {
+//         resultsHTML += `
+//             <div class="card alert-box">
+//                 <h4>⚠️ Treatment Not Found in Coverage List</h4>
+//                 <p>The treatment you searched for is not specifically listed in your policy benefits. This could mean:</p>
+//                 <ul>
+//                     <li>It may be covered under "Other Diseases" or general medical coverage</li>
+//                     <li>It may require special approval from your TPA</li>
+//                     <li>It may fall under exclusions</li>
+//                 </ul>
+//                 <p><strong>Recommendation:</strong> Contact your TPA (Mediassist) at 1800-XXX-XXXX for specific treatment coverage confirmation.</p>
+//             </div>
+//         `;
+//     }
+    
+//     // General Benefits Summary
+//     resultsHTML += `
+//         <div class="card">
+//             <h2>🛡️ Your ${grade.name} Benefits Summary</h2>
+//             <p style="color: #666; margin-bottom: 20px;"><strong>Company:</strong> ${selectedCorporate}</p>
+            
+//             <div class="benefit-item">
+//                 <h4>Room Rent Eligibility</h4>
+//                 <p class="benefit-value">${grade.roomRent}</p>
+//             </div>
+
+//             <div class="benefit-item">
+//                 <h4>General Copay</h4>
+//                 <p class="benefit-value">${grade.generalCopay}</p>
+//             </div>
+
+//             <div class="benefit-item">
+//                 <h4>Intimation Copay</h4>
+//                 <p class="benefit-value">${grade.intimationCopay}</p>
+//             </div>
+
+//             <div class="benefit-item">
+//                 <h4>Pre & Post Hospitalization</h4>
+//                 <p class="benefit-value">Pre-Op: ${grade.preOp} | Post-Op: ${grade.postOp}</p>
+//             </div>
+
+//             <div class="benefit-item">
+//                 <h4>Refractive Eye Surgery Coverage</h4>
+//                 <p class="benefit-value">Power: ${grade.refractivePower}</p>
+//             </div>
+//         </div>
+//     `;
+    
+//     // Exclusions
+//     if (grade.exclusions) {
+//         resultsHTML += `
+//             <div class="card">
+//                 <h3 style="color: #dc3545;">❌ Exclusions</h3>
+//                 <p class="benefit-value" style="font-size: 1rem; line-height: 1.6;">${grade.exclusions}</p>
+//             </div>
+//         `;
+//     }
+    
+//     // Inclusions
+//     if (grade.inclusions) {
+//         resultsHTML += `
+//             <div class="card">
+//                 <h3 style="color: #28a745;">✅ Inclusions</h3>
+//                 <p class="benefit-value" style="font-size: 1rem; line-height: 1.6;">${grade.inclusions}</p>
+//             </div>
+//         `;
+//     }
+    
+//     // Remarks
+//     if (grade.remarks) {
+//         resultsHTML += `
+//             <div class="card" style="background: #e7f3ff; border-left: 4px solid #0066cc;">
+//                 <h3 style="color: #0066cc;">📋 Important Remarks</h3>
+//                 <p class="benefit-value" style="font-size: 1rem; line-height: 1.6;">${grade.remarks}</p>
+//             </div>
+//         `;
+//     }
+    
+//     // Important Information
+//     resultsHTML += `
+//         <div class="card alert-box">
+//             <h4>ℹ️ Important Information</h4>
+//             <ul>
+//                 <li>Coverage details shown are high-level benefits from your GMC policy</li>
+//                 <li>For detailed policy limits, claim procedures, and pre-authorization, contact your TPA (Mediassist)</li>
+//                 <li>Always intimate your TPA within the required timeframe to avoid additional copay</li>
+//                 <li>Keep all original bills, prescriptions, and discharge summaries for claim processing</li>
+//             </ul>
+//         </div>
+//     `;
+    
+//     // Display results
+//     document.getElementById('resultsContent').innerHTML = resultsHTML;
+//     showScreen('resultsScreen');
+//     window.scrollTo({ top: 0, behavior: 'smooth' });
+// }
+
+// // Go back to home screen
+// function goBack() {
+//     showScreen('homeScreen');
+//     window.scrollTo({ top: 0, behavior: 'smooth' });
+    
+//     // Reset treatment search
+//     currentTreatment = '';
+//     document.getElementById('treatmentSearch').value = '';
+// }
+
+// // Switch between screens
+// function showScreen(screenId) {
+//     const screens = document.querySelectorAll('.screen');
+//     screens.forEach(screen => screen.classList.remove('active'));
+//     document.getElementById(screenId).classList.add('active');
+// }
 
 
 
