@@ -1,0 +1,3016 @@
+{
+    "Tata Consultancy Services": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "platinum-plus",
+                "name": "Platinum Plus",
+                "roomRent": "Single A/C Room",
+                "generalCopay": "0%",
+                "intimationCopay": "10% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War, Congenital External, Congenital External Life Threatening, Alcohol Drug Abuse, Hearing Aid, Obstructive Sleep Apnoea\tA",
+                "inclusions": "Normal ailments, Vitiligo, Infertility ,Conventional chemotherapy, surgeryCancer care\tAIDS, Psychiatric treatment",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.",
+                "treatments": {
+                    "Robotic surgeries": {
+                        "cap": "₹10000000",
+                        "copay": "0%"
+                    },
+                    "Cyberknife": {
+                        "cap": "₹600000",
+                        "copay": "0%"
+                    },
+                    "Joint Replacement-single": {
+                        "cap": "₹250000",
+                        "copay": "0%"
+                    },
+                    "Joint Replacement-double": {
+                        "cap": "₹400000",
+                        "copay": "0%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹400000",
+                        "copay": "0%"
+                    },
+                    "Infertility": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Sclerosis": {
+                        "cap": "₹250000",
+                        "copay": "0%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "cataract": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Maternity  -Normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity  -C Section": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Deep brain stilumation": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "platinum",
+                "name": "Platinum",
+                "roomRent": "Single A/c room for employee and  Parents/Parents-in-Laws",
+                "generalCopay": "12.5%",
+                "intimationCopay": "10% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War, Congenital External, Congenital External Life Threatening, Alcohol Drug Abuse, Hearing Aid, Obstructive Sleep Apnoea\tA",
+                "inclusions": "Normal ailments, Vitiligo, Infertility ,Conventional chemotherapy, surgeryCancer care\tAIDS, Psychiatric treatment",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.",
+                "treatments": {
+                    "Robotic surgeries": {
+                        "cap": "₹10000000",
+                        "copay": "12.5%"
+                    },
+                    "Cyberknife": {
+                        "cap": "₹600000",
+                        "copay": "12.5%"
+                    },
+                    "Joint Replacement-single": {
+                        "cap": "₹250000",
+                        "copay": "12.5%"
+                    },
+                    "Joint Replacement-double": {
+                        "cap": "₹400000",
+                        "copay": "12.5%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹400000",
+                        "copay": "12.5%"
+                    },
+                    "Infertility": {
+                        "cap": "₹200000",
+                        "copay": "12.5%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹100000",
+                        "copay": "12.5%"
+                    },
+                    "Sclerosis": {
+                        "cap": "₹250000",
+                        "copay": "12.5%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹200000",
+                        "copay": "12.5%"
+                    },
+                    "cataract": {
+                        "cap": "₹40000",
+                        "copay": "12.5%"
+                    },
+                    "Deep brain stilumation": {
+                        "cap": "₹50 %",
+                        "copay": "12.5%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "12.5%"
+                    },
+                    "Maternity  -Normal": {
+                        "cap": "₹75000",
+                        "copay": "12.5%"
+                    },
+                    "Maternity  -C Section": {
+                        "cap": "₹100000",
+                        "copay": "12.5%"
+                    }
+                }
+            },
+            {
+                "id": "gold-plus",
+                "name": "Gold Plus",
+                "roomRent": "Single  A/C Room for Employee, Twin Sharing A/C Room for Parents/Parents-in-Laws",
+                "generalCopay": "10%",
+                "intimationCopay": "10% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War, Congenital External, Congenital External Life Threatening, Alcohol Drug Abuse, Hearing Aid, Obstructive Sleep Apnoea\tA",
+                "inclusions": "Normal ailments, Vitiligo, Infertility ,Conventional chemotherapy, surgeryCancer care\tAIDS, Psychiatric treatment",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.",
+                "treatments": {
+                    "Robotic surgeries": {
+                        "cap": "₹10000000",
+                        "copay": "10%"
+                    },
+                    "Cyberknife": {
+                        "cap": "₹600000",
+                        "copay": "10%"
+                    },
+                    "Joint Replacement-single": {
+                        "cap": "₹250000",
+                        "copay": "10%"
+                    },
+                    "Joint Replacement-double": {
+                        "cap": "₹400000",
+                        "copay": "10%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹400000",
+                        "copay": "10%"
+                    },
+                    "Infertility": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹100000",
+                        "copay": "10%"
+                    },
+                    "Sclerosis": {
+                        "cap": "₹250000",
+                        "copay": "10%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "cataract": {
+                        "cap": "₹40000",
+                        "copay": "10%"
+                    },
+                    "Deep brain stilumation": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Maternity  -Normal": {
+                        "cap": "₹75000",
+                        "copay": "10%"
+                    },
+                    "Maternity  -C Section": {
+                        "cap": "₹100000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            },
+            {
+                "id": "gold",
+                "name": "Gold",
+                "roomRent": "Twin Sharing A/C Room for Employee and Parents/Parents-in-Laws",
+                "generalCopay": "7.5%",
+                "intimationCopay": "10% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War, Congenital External, Congenital External Life Threatening, Alcohol Drug Abuse, Hearing Aid, Obstructive Sleep Apnoea\tA",
+                "inclusions": "Normal ailments, Vitiligo, Infertility ,Conventional chemotherapy, surgeryCancer care\tAIDS, Psychiatric treatment",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.",
+                "treatments": {
+                    "Robotic surgeries": {
+                        "cap": "₹10000000",
+                        "copay": "7.5%"
+                    },
+                    "Cyberknife": {
+                        "cap": "₹600000",
+                        "copay": "7.5%"
+                    },
+                    "Joint Replacement-single": {
+                        "cap": "₹250000",
+                        "copay": "7.5%"
+                    },
+                    "Joint Replacement-double": {
+                        "cap": "₹400000",
+                        "copay": "7.5%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹400000",
+                        "copay": "7.5%"
+                    },
+                    "Infertility": {
+                        "cap": "₹200000",
+                        "copay": "7.5%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹100000",
+                        "copay": "7.5%"
+                    },
+                    "Sclerosis": {
+                        "cap": "₹250000",
+                        "copay": "7.5%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹200000",
+                        "copay": "7.5%"
+                    },
+                    "cataract": {
+                        "cap": "₹40000",
+                        "copay": "7.5%"
+                    },
+                    "Deep brain stilumation": {
+                        "cap": "₹50 %",
+                        "copay": "7.5%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "7.5%"
+                    },
+                    "Maternity  -Normal": {
+                        "cap": "₹75000",
+                        "copay": "7.5%"
+                    },
+                    "Maternity  -C Section": {
+                        "cap": "₹100000",
+                        "copay": "7.5%"
+                    }
+                }
+            },
+            {
+                "id": "silver",
+                "name": "Silver",
+                "roomRent": "Twin Sharing A/C Room",
+                "generalCopay": "5%",
+                "intimationCopay": "10% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Alcohol Drug Illness, Breech of Law, Convalescence, Cosmetic, Egg Freezing, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, Surrogacy Delivery, War, Congenital External, Congenital External Life Threatening, Alcohol Drug Abuse, Hearing Aid, Obstructive Sleep Apnoea\tA",
+                "inclusions": "Normal ailments, Vitiligo, Infertility ,Conventional chemotherapy, surgeryCancer care\tAIDS, Psychiatric treatment",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities. 10% copay if intimation is not done within 3 days.",
+                "treatments": {
+                    "Robotic surgeries": {
+                        "cap": "₹10000000",
+                        "copay": "5%"
+                    },
+                    "Cyberknife": {
+                        "cap": "₹600000",
+                        "copay": "5%"
+                    },
+                    "Joint Replacement-single": {
+                        "cap": "₹250000",
+                        "copay": "5%"
+                    },
+                    "Joint Replacement-double": {
+                        "cap": "₹400000",
+                        "copay": "5%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹400000",
+                        "copay": "5%"
+                    },
+                    "Infertility": {
+                        "cap": "₹200000",
+                        "copay": "5%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹100000",
+                        "copay": "5%"
+                    },
+                    "Sclerosis": {
+                        "cap": "₹250000",
+                        "copay": "5%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹200000",
+                        "copay": "5%"
+                    },
+                    "cataract": {
+                        "cap": "₹40000",
+                        "copay": "5%"
+                    },
+                    "Deep brain stilumation": {
+                        "cap": "₹50 %",
+                        "copay": "5%"
+                    },
+                    "Delivery -Normal": {
+                        "cap": "₹75000",
+                        "copay": "5%"
+                    },
+                    "Delivery -C Section": {
+                        "cap": "₹100000",
+                        "copay": "5%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "5%"
+                    }
+                }
+            }
+        ]
+    },
+    "Cognizant Technology Solutions": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "level-1",
+                "name": "Level 1",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "Alcohol/Drug abuse, Cosmetic procedures, Surrogacy Delivery, War, Self-injury, Hazardous Sports, Congenital external not listed, etc.",
+                "inclusions": "Pre-existing conditions, Congenital internal and external (as listed), Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35), Intravitreal injections, Palliative chemotherapy, Smoking/alcohol-related diseases, etc.",
+                "remarks": "100% approval for VIP employees and dependents for cashless claims. Trauma cases: Imaging tests up to INR 5,000. Hypospadias covered up to INR 50,000. Ambulance: 1% of SI or INR 2,000, Air Ambulance: INR 100,000 per incident. No copay for workplace accidents. Coverage for associates' dependents continues up to policy expiry upon employee demise",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹35000",
+                        "copay": "10%"
+                    },
+                    "Maternity": {
+                        "cap": "₹75000",
+                        "copay": "10%"
+                    },
+                    "Joint Replacement-single": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Joint Replacement-Double": {
+                        "cap": "₹300000",
+                        "copay": "10%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹75000",
+                        "copay": "10%"
+                    },
+                    "Infertility": {
+                        "cap": "₹40000",
+                        "copay": "10%"
+                    },
+                    "Cochlear Implant": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Robotic Surgeries": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Cyber Knife": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            },
+            {
+                "id": "level-2",
+                "name": "Level 2",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "Alcohol/Drug abuse, Cosmetic procedures, Surrogacy Delivery, War, Self-injury, Hazardous Sports, Congenital external not listed, etc.",
+                "inclusions": "Pre-existing conditions, Congenital internal and external (as listed), Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35), Intravitreal injections, Palliative chemotherapy, Smoking/alcohol-related diseases, etc.",
+                "remarks": "100% approval for VIP employees and dependents for cashless claims. Trauma cases: Imaging tests up to INR 5,000. Hypospadias covered up to INR 50,000. Ambulance: 1% of SI or INR 2,000, Air Ambulance: INR 100,000 per incident. No copay for workplace accidents. Coverage for associates' dependents continues up to policy expiry upon employee demise",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹35000",
+                        "copay": "10%"
+                    },
+                    "Maternity": {
+                        "cap": "₹75000",
+                        "copay": "10%"
+                    },
+                    "Joint Replacement-single": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Joint Replacement-Double": {
+                        "cap": "₹300000",
+                        "copay": "10%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹75000",
+                        "copay": "10%"
+                    },
+                    "Infertility": {
+                        "cap": "₹40000",
+                        "copay": "10%"
+                    },
+                    "Cochlear Implant": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Robotic Surgeries": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Cyber Knife": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            },
+            {
+                "id": "level-3",
+                "name": "Level 3",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "Alcohol/Drug abuse, Cosmetic procedures, Surrogacy Delivery, War, Self-injury, Hazardous Sports, Congenital external not listed, etc.",
+                "inclusions": "Pre-existing conditions, Congenital internal and external (as listed), Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35), Intravitreal injections, Palliative chemotherapy, Smoking/alcohol-related diseases, etc.",
+                "remarks": "100% approval for VIP employees and dependents for cashless claims. Trauma cases: Imaging tests up to INR 5,000. Hypospadias covered up to INR 50,000. Ambulance: 1% of SI or INR 2,000, Air Ambulance: INR 100,000 per incident. No copay for workplace accidents. Coverage for associates' dependents continues up to policy expiry upon employee demise",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹35000",
+                        "copay": "10%"
+                    },
+                    "Maternity": {
+                        "cap": "₹75000",
+                        "copay": "10%"
+                    },
+                    "Joint Replacement-single": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Joint Replacement-Double": {
+                        "cap": "₹300000",
+                        "copay": "10%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹75000",
+                        "copay": "10%"
+                    },
+                    "Infertility": {
+                        "cap": "₹40000",
+                        "copay": "10%"
+                    },
+                    "Cochlear Implant": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Robotic Surgeries": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Cyber Knife": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "Reliance Retail Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "supervisory",
+                "name": "Supervisory",
+                "roomRent": "Twin Sharing A/C Room",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.0",
+                "exclusions": "Breech Of Law, Cosmetic, Alcohol Drug Abuse, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, War, Alcohol Drug illness, STD, Dental, Convalescence, Egg Freezing, Health Check, HIV AIDS, Surrogacy Delivery, Voluntary Termination Pregnancy, Infertility, IVF For Infertility, Aplastic Anemia, Hemolytic Anemia, Sickle Cell Anemia",
+                "inclusions": "Pre-existing conditions, Congenital internal and external Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35), Intravitreal injections, Palliative chemotherapy",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹60000",
+                        "copay": "0%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Robotic Surgeries": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Uterine Artery Embolization": {
+                        "cap": "₹20 %",
+                        "copay": "0%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹20 %",
+                        "copay": "0%"
+                    },
+                    "Deep Brain Stimulation": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "executive",
+                "name": "Executive",
+                "roomRent": "Single A/c room",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.0",
+                "exclusions": "Breech Of Law, Cosmetic, Alcohol Drug Abuse, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, War, Alcohol Drug illness, STD, Dental, Convalescence, Egg Freezing, Health Check, HIV AIDS, Surrogacy Delivery, Voluntary Termination Pregnancy, Infertility, IVF For Infertility, Aplastic Anemia, Hemolytic Anemia, Sickle Cell Anemia",
+                "inclusions": "Pre-existing conditions, Congenital internal and external Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35), Intravitreal injections, Palliative chemotherapy",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹60000",
+                        "copay": "0%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Robotic Surgeries": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Uterine Artery Embolization": {
+                        "cap": "₹20 %",
+                        "copay": "0%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹20 %",
+                        "copay": "0%"
+                    },
+                    "Deep Brain Stimulation": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "manager",
+                "name": "Manager",
+                "roomRent": "Single A/c room",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.0",
+                "exclusions": "Breech Of Law, Cosmetic, Alcohol Drug Abuse, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, War, Alcohol Drug illness, STD, Dental, Convalescence, Egg Freezing, Health Check, HIV AIDS, Surrogacy Delivery, Voluntary Termination Pregnancy, Infertility, IVF For Infertility, Aplastic Anemia, Hemolytic Anemia, Sickle Cell Anemia",
+                "inclusions": "Pre-existing conditions, Congenital internal and external Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35), Intravitreal injections, Palliative chemotherapy",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹60000",
+                        "copay": "0%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Robotic Surgeries": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Uterine Artery Embolization": {
+                        "cap": "₹20 %",
+                        "copay": "0%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹20 %",
+                        "copay": "0%"
+                    },
+                    "Deep Brain Stimulation": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "leader",
+                "name": "Leader",
+                "roomRent": "Deluxe A/C room",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.0",
+                "exclusions": "Breech Of Law, Cosmetic, Alcohol Drug Abuse, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, War, Alcohol Drug illness, STD, Dental, Convalescence, Egg Freezing, Health Check, HIV AIDS, Surrogacy Delivery, Voluntary Termination Pregnancy, Infertility, IVF For Infertility, Aplastic Anemia, Hemolytic Anemia, Sickle Cell Anemia",
+                "inclusions": "Pre-existing conditions, Congenital internal and external Genetic disorders, Critical illness, Bariatric surgery (BMI ≥ 35), Intravitreal injections, Palliative chemotherapy",
+                "remarks": "Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹60000",
+                        "copay": "0%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Robotic Surgeries": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Uterine Artery Embolization": {
+                        "cap": "₹20 %",
+                        "copay": "0%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹20 %",
+                        "copay": "0%"
+                    },
+                    "Deep Brain Stimulation": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Infosys Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "standard-plan",
+                "name": "Standard Plan",
+                "roomRent": "Single A/c room",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "30 days",
+                "refractivePower": "±4.0",
+                "exclusions": "Stem cell surgery/Stroke/Transplant-unproven and experimental, Egg freezing, Legal Surrogacy, Cosmetic treatments, Voluntary Termination Pregnancy, Non-NIC Day Care Procedures",
+                "inclusions": "Genetic disorders, affecting normal functioning of the individual/life-threatening, Pre-existing conditions, Congenital anomalies, Critical illness, Day Care Procedures, Home Quarantine",
+                "remarks": "No copay for capped ailments. Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹35000",
+                        "copay": "10%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Lasik": {
+                        "cap": "₹70000",
+                        "copay": "10%"
+                    },
+                    "Gender Reassignment": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "10%"
+                    }
+                }
+            },
+            {
+                "id": "gold-plan",
+                "name": "Gold Plan",
+                "roomRent": "Single A/c room",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "30 days",
+                "refractivePower": "±4.0",
+                "exclusions": "Stem cell surgery/Stroke/Transplant-unproven and experimental, Egg freezing, Legal Surrogacy, Cosmetic treatments, Voluntary Termination Pregnancy, Non-NIC Day Care Procedures",
+                "inclusions": "Genetic disorders, affecting normal functioning of the individual/life-threatening, Pre-existing conditions, Congenital anomalies, Critical illness, Day Care Procedures, Home Quarantine",
+                "remarks": "No copay for capped ailments. Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹35000",
+                        "copay": "10%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Lasik": {
+                        "cap": "₹70000",
+                        "copay": "10%"
+                    },
+                    "Gender Reassignment": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "10%"
+                    }
+                }
+            },
+            {
+                "id": "platinum-plan",
+                "name": "Platinum Plan",
+                "roomRent": "No restriction",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "30 days",
+                "refractivePower": "±4.0",
+                "exclusions": "Stem cell surgery/Stroke/Transplant-unproven and experimental, Egg freezing, Legal Surrogacy, Cosmetic treatments, Voluntary Termination Pregnancy, Non-NIC Day Care Procedures",
+                "inclusions": "Genetic disorders, affecting normal functioning of the individual/life-threatening, Pre-existing conditions, Congenital anomalies, Critical illness, Day Care Procedures, Home Quarantine",
+                "remarks": "No copay for capped ailments. Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Lasik": {
+                        "cap": "₹70000",
+                        "copay": "0%"
+                    },
+                    "Gender Reassignment": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "titanium-plan",
+                "name": "Titanium Plan",
+                "roomRent": "No restriction",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "30 days",
+                "refractivePower": "±4.0",
+                "exclusions": "Stem cell surgery/Stroke/Transplant-unproven and experimental, Egg freezing, Legal Surrogacy, Cosmetic treatments, Voluntary Termination Pregnancy, Non-NIC Day Care Procedures",
+                "inclusions": "Genetic disorders, affecting normal functioning of the individual/life-threatening, Pre-existing conditions, Congenital anomalies, Critical illness, Day Care Procedures, Home Quarantine",
+                "remarks": "No copay for capped ailments. Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Lasik": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Gender Reassignment": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "titanium-plus-plan",
+                "name": "TITANIUM PLUS PLAN",
+                "roomRent": "No restriction",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "30 days",
+                "refractivePower": "±4.0",
+                "exclusions": "Stem cell surgery/Stroke/Transplant-unproven and experimental, Egg freezing, Legal Surrogacy, Cosmetic treatments, Voluntary Termination Pregnancy, Non-NIC Day Care Procedures",
+                "inclusions": "Genetic disorders, affecting normal functioning of the individual/life-threatening, Pre-existing conditions, Congenital anomalies, Critical illness, Day Care Procedures, Home Quarantine",
+                "remarks": "No copay for capped ailments. Bariatric surgery covered if BMI ≥ 40, or BMI ≥ 35 with co-morbidities.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Maternity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Lasik": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Gender Reassignment": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "JP Morgan Services India Pvt Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7",
+                "exclusions": "Cosmetic treatments, Voluntary Termination Pregnancy, Experimental Treatments, Treatments outside India, Naturopathy",
+                "inclusions": "Mental Illness, Terrorism, Internal/External Congenital Diseases, Hemophilia, HIV (excluding full blown AIDS), Pre-existing Conditions",
+                "remarks": "Policy is on a floater basis; covers individuals from 0 to 80+ years; no waiting period; weekly benefit for life-threatening diseases; lumpsum for first-time cancer/critical illness detection; robotic surgery coverage with approval; Medical Buffer for critical conditions",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity": {
+                        "cap": "₹1000000",
+                        "copay": "0%"
+                    },
+                    "Infertility": {
+                        "cap": "₹2500000",
+                        "copay": "0%"
+                    },
+                    "Stem Cell Therapy": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Robotic Surgery": {
+                        "cap": "₹100 %",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Capgemini Technology Services India Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "1%",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±6",
+                "exclusions": "Enhanced External Counter Pulsation Therapy, Hyperbaric Oxygen Therapy, Quantum Magnetic Resonance Therapy, Alcohol Drug illness, Breech Of Law, Convalescence, Cosmetic, Dental, Exclusions, Hazardous Sports, Health Check, Rest Cure, Ritual Circumcision, Self Injury, Sterility, War, Alcohol Drug Abuse, Voluntary Termination Pregnancy, New born Well Baby Care, Hearing Aid",
+                "inclusions": "Mental Illness, Terrorism, Internal/External Congenital Diseases, Hemophilia, HIV (excluding full blown AIDS), Pre-existing Conditions",
+                "remarks": "cancer/critical illness detection; robotic surgery coverage with approval,Burn injuries covered for IPD & OPD treatment, Abortion Covered within and up to Maternity sublimit, if performed legally & under medical advice within first 20 weeks on confirmation of substantial risk that if the child were born, it would suffer from such physical or mental abnormalities as to be seriously handicapped. immunomodulatory drugs covered for Malignancy on IPD and OPD basis.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹65000",
+                        "copay": "10%"
+                    },
+                    "Infertility": {
+                        "cap": "₹65000",
+                        "copay": "10%"
+                    },
+                    "Psychiatric Treatment": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Hormonal Therapy": {
+                        "cap": "₹100000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "Wells Fargo International solutions Private Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "Enhanced External Counter Pulsation Therapy, Hyperbaric Oxygen Therapy, Quantum Magnetic Resonance Therapy, Alcohol Drug illness, Breech Of Law, Convalescence, Cosmetic, Dental (except accidental injuries), Exclusions, Hazardous Sports, Health Check, Rest Cure, Ritual Circumcision, Self Injury, Sterility, War, Alcohol Drug Abuse, Voluntary Termination Pregnancy, Newborn Well Baby Care, Hearing Aid (except for ESCP)",
+                "inclusions": "Mental Illness, Terrorism, Internal/External Congenital Diseases, Hemophilia, HIV (excluding full blown AIDS), Pre-existing Conditions, Genetic Disorders, Same Sex Partners, Gender Reassignment, Specially-Abled Child Cover, Septoplasty, Age-Related Macular Degeneration, Biodegradable Stents, Stem Cell Transplantation, Cyber Knife & Cochlear Implants, Hospitalization due to Epidemic/Pandemic",
+                "remarks": "robotic surgery coverage with approval; Medical Buffer for critical conditions; Dual Maternity Cover for employees and spouses working in the same organization; Mid-term enrolment allowed within 45 days of the event; Corporate Buffer of INR 1,50,00,000 with special buffer of INR 30 lacs; Wellness coverage of INR 1,50,00,000; Ambulance services with air ambulance limit of INR 100,000; Newborn coverage from day one; Fertility Preservation, Infertility Treatment, and Maternity Benefits capped at INR 75,000 collectively per policy period",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Infertility": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Deep Brain Simulation": {
+                        "cap": "₹75 %",
+                        "copay": "0%"
+                    },
+                    "lasik": {
+                        "cap": "₹60000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Tech Mahindra LTD": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Alcohol Drug illness, Breech Of Law, Congenital external Life Threatning, Convalescence, Cosmetic, Egg Freezing, Exclusions, Hazardous Sports, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, War, Congenital external, Dental, Alcohol Drug Abuse, Health Check, Hearing Aid, New born Well Baby Care, Pre And Post Natal, Voluntary Termination Pregnancy, IVF For Infertility, Infertility  Enhanced External Counter Pulsation Therapy And Related Therapies ( Eecp), Quantum Magnetic Resonance TherapyYour health policy does not cover Yoga, Naturopathy health care system",
+                "inclusions": "bariatric surgery when the BMI value is greater than or equal 40 , bariatric surgery when the BMI value is greater than or equal 35 for co-morbid cases.",
+                "remarks": "No mid-term changes allowed except for promotion with extra premium,Dependents of existing employees cannot be added mid-year except for newly-wed spouses and newborns.\nCorporate buffer of INR 15,000,000 with an inner limit of INR 7,000,000Intimation claus,e waived off; claims accepted up to 120 days post-discharge",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹25000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹60000",
+                        "copay": "10%"
+                    },
+                    "Hernia": {
+                        "cap": "₹60000",
+                        "copay": "10%"
+                    },
+                    "Hysterectomy": {
+                        "cap": "₹60000",
+                        "copay": "10%"
+                    },
+                    "Holmium Laser Enucleation of the Prostate": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Deep Brain Simulation": {
+                        "cap": "₹75 %",
+                        "copay": "10%"
+                    },
+                    "Intravitreal Injections": {
+                        "cap": "₹100 %",
+                        "copay": "10%"
+                    },
+                    "Gender Reassignment Surgery": {
+                        "cap": "₹500000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "Oracle": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "Spouse ,childeren-10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±4.5",
+                "exclusions": "Enhanced External Counter Pulsation Therapy, Hyperbaric Oxygen Therapy, Quantum Magnetic Resonance Therapy, Alcohol Drug illness, Breech Of Law, Convalescence, Cosmetic, Dental (except accidental injuries), Exclusions, Hazardous Sports, Health Check, Rest Cure, Ritual Circumcision, Self Injury, Sterility, War, Alcohol Drug Abuse, Voluntary Termination Pregnancy, Newborn Well Baby Care, Hearing Aid (except for ESCP)",
+                "inclusions": "Mental Illness, Terrorism, Internal/External Congenital Diseases, Hemophilia, HIV (excluding full blown AIDS), Pre-existing Conditions, Genetic Disorders, Same Sex Partners, Gender Reassignment, Specially-Abled Child Cover, Septoplasty, Age-Related Macular Degeneration, Biodegradable Stents, Stem Cell Transplantation, Cyber Knife & Cochlear Implants, Hospitalization due to Epidemic/Pandemic",
+                "remarks": "Keratoconus treatment is covered,Sleep Apnea Treatment is covered; cost of device on rental basis (device purchase not covered),Fracture of Bones: Includes treatment for fractures, hairline fractures, dislocation of bones/joints, ligament tear, and similar injuries treated in less than 24 hours.\nDonor Expenses are covered.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹75000",
+                        "copay": "Spouse ,childeren-10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "Spouse ,childeren-10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "Spouse ,childeren-10%"
+                    },
+                    "Gender Reassignment Surgery": {
+                        "cap": "₹75000",
+                        "copay": "Spouse ,childeren-10%"
+                    },
+                    "Intravitreal Injections": {
+                        "cap": "₹100000",
+                        "copay": "Spouse ,childeren-10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "Spouse ,childeren-10%"
+                    }
+                }
+            }
+        ]
+    },
+    "IBM India Pvt Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Extensive exclusions apply including but not limited to national emergencies, obesity treatments, cosmetic surgeries, investigations not related to hospitalization, optometric therapy, experimental treatments, non-allopathic treatments, preventive care, convenience items, OPD consultations not covered under certain conditions, and specific exclusions for genetic and congenital conditions for parents.",
+                "inclusions": "Various benefits including maternity, infertility treatments up to maternity limit (with exclusions for family planning), congenital diseases, cancer treatments, specific surgeries, living together relationships, psychiatric disorders in ESC policy, Domiciliary Hospitalization, among others are covered under certain conditions. Specific inclusions for hospital treatments involving listed daycare procedures.",
+                "remarks": "- Coverage extension supports living together relationships, third gender members, differently abled dependent child with 40% disability (with disability certificate), congenital diseases.Enhanced maternity limit of INR 65,000 for complications and regular maternity costs based on applicable sub-limits. Policies have detailed exclusions like lifestyle, non-emergency treatments, routine checkups, dental surgeries unless hospitalization is required.Check for updated daycare procedures",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹65000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹65000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "STATESTREET CORPORATE SERVICES": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "- Specific waiting periods waived (30-day, 1-year, 9-months for maternity). <br> - General outpatient (OPD) conditions under maternity, infertility, routine checkups, non-allopathic treatments, cosmetic procedures unless specified otherwise.- Specific pre-existing diseases covered from day one. Capped procedures where overall limits exceed policy specifications.",
+                "inclusions": "12 modern treatments (e.g., Robotic surgery, Immunotherapy, Stem cell therapy for certain conditions, etc.). - Advanced cancer treatments, psychiatric, and mental wellness up to INR 200,000 on IPD & OPD basis.- Neurodiversity treatment, external congenital conditions if life-threatening.  Critical illness buffer details apply. Multiple births and third independent children covered.",
+                "remarks": "State Street policy co-pays are to be applied only on the payable amounts. Enhance AYUSH limit to 50% of the sum insured. Portability options available upon leaving the company. Additional ambulance charges covered per person up to INR 5,000. Active work-related cover if an employee falls sick within office premises. Certain exclusions apply for capped ailments or policies not aligned with ERDAI guidelines.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹30000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Infertility": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "HSBC EDP INDIA PVT LTD": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±6",
+                "exclusions": "This policy does not cover treatments or expenses related to Alcohol or Drug abuse, Breach of Law, Convalescence, Cosmetic surgery, Hazardous Sports, Rest Cures, Ritual Circumcision, Self-inflicted Injury, Sexually Transmitted Diseases, Sterility, War-related injuries, Health Checkups, Voluntary Termination of Pregnancy, Egg Freezing, Hearing Aids, HIV/AIDS, Hormonal Therapy, Enhanced External Counter Pulsation Therapy, Hyperbaric Oxygen Therapy.",
+                "inclusions": "Waiver of pre-existing conditions exclusions (4.1, 4.2, 4.3). Coverage for modern treatments subject to specified limits. Surrogacy-related costs covered under specified conditions and limits",
+                "remarks": "Waiver of proportionate deduction on room rent per Ticket No: 21461830. Hormonal chemotherapy covered up to INR 2,00,000 within FSI (first 100 cases only). Special Child OPD deleted. 16 modern treatments covered with specific limits. COVID home care covered under conditions. Maximum age for dependent child is 25 years; group coverage up to 80 years. Family definition includes live-in partner of opposite gender or LGBT.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹135000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹135000",
+                        "copay": "0%"
+                    },
+                    "Gender Reassignment Surgery": {
+                        "cap": "₹800000",
+                        "copay": "0%"
+                    },
+                    "Uterine Artery Embolization": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Deep Brain Stimulation": {
+                        "cap": "₹500000",
+                        "copay": "0%"
+                    },
+                    "Intravitreal Injections": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "IDFC FIRST Bank Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "20% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "This policy does not cover treatments or expenses related to Alcohol or Drug abuse, Breach of Law, Convalescence, Cosmetic surgery, Hazardous Sports, Rest Cures, Ritual Circumcision, Self-inflicted Injury, Sexually Transmitted Diseases, Sterility, War-related injuries, Health Checkups, Voluntary Termination of Pregnancy, Egg Freezing, Hearing Aids, HIV/AIDS, Hormonal Therapy, Enhanced External Counter Pulsation Therapy, Hyperbaric Oxygen Therapy.",
+                "inclusions": "Waiver of pre-existing conditions exclusions (4.1, 4.2, 4.3). Coverage for modern treatments subject to specified limits. Surrogacy-related costs covered under specified conditions and limit.",
+                "remarks": "Normal Maternity Limit increased to INR 100,000, C-Section Maternity Limit increased to INR 125,000 for top-up members opting above INR 400,000. Cataract claims payable up to INR 60,000 per eye, with no lens restriction. Delay condonation above 90 days attracts 10% co-pay for delayed claims. Reasonable & customary clause applies. No capping on modern treatments per New India Flexi Floater Policy terms. Pre and Post-natal cover revised to 45 days post discharge. Family definition includes live-in partner of opposite gender or LGBT. Voluntary and cosmetic procedures generally excluded.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹60000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "SBI Life Insurance Company Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "metro",
+                "name": "Metro",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Enhanced External Counter Pulsation Therapy, Hyperbaric Oxygen Therapy, Gender Reassignment Surgery, Quantum Magnetic Resonance Therapy, Alcohol and Drug-related illnesses, Breach of Law, Egg Freezing, Hazardous Sports, Sterility, STD, Surrogacy Delivery, Ritual Circumcision, Self-Injury, Rest Cure, War, Voluntary Termination of Pregnancy, Convalescence, Cosmetic surgeries, General Health Checkups, Hearing Aids, and Newborn Well Baby Care.",
+                "inclusions": "Waiver of pre-existing conditions exclusions (4.1, 4.2, 4.3). Coverage for modern treatments subject to specified caps",
+                "remarks": "Various benefits include extensive Covid-19 treatment cover, flexible sum assured for family members, top-up options, preferential rates for eye checks for specific grades (capped at INR 35,000), and maternity covers for multiple births. Room rent waivers and inclusive definitions for family coverage, including surgical correction of refractive errors beyond specified caps, are notable advantages.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹80000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Knee replacement": {
+                        "cap": "₹400000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "non-metro",
+                "name": "Non Metro",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Enhanced External Counter Pulsation Therapy, Hyperbaric Oxygen Therapy, Gender Reassignment Surgery, Quantum Magnetic Resonance Therapy, Alcohol and Drug-related illnesses, Breach of Law, Egg Freezing, Hazardous Sports, Sterility, STD, Surrogacy Delivery, Ritual Circumcision, Self-Injury, Rest Cure, War, Voluntary Termination of Pregnancy, Convalescence, Cosmetic surgeries, General Health Checkups, Hearing Aids, and Newborn Well Baby Care.",
+                "inclusions": "Waiver of pre-existing conditions exclusions (4.1, 4.2, 4.3). Coverage for modern treatments subject to specified caps",
+                "remarks": "Various benefits include extensive Covid-19 treatment cover, flexible sum assured for family members, top-up options, preferential rates for eye checks for specific grades (capped at INR 35,000), and maternity covers for multiple births. Room rent waivers and inclusive definitions for family coverage, including surgical correction of refractive errors beyond specified caps, are notable advantages.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹60000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹80000",
+                        "copay": "0%"
+                    },
+                    "Knee replacement": {
+                        "cap": "₹400000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Intel Technology India Pvt Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Common exclusions include comfort treatments, and baby well care charges; specifics like infertility treatment and naturуopathy are not covered.",
+                "inclusions": "Genetic disorders, pre-existing illnesses (from day one), and congenital anomalies covered under the policy; various modern treatments allowed up to 50% of the sum insured.",
+                "remarks": "Some grades might have specific eligibility criteria like coverage for gender reassignment surgery and related procedures as per certain protocols.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹100000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹100000",
+                        "copay": "10%"
+                    },
+                    "Knee replacement": {
+                        "cap": "₹500000",
+                        "copay": "10%"
+                    },
+                    "Robotic": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "L&T TECHNOLOGY SERVICES LIMITED": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "s-&-e",
+                "name": "S & E",
+                "roomRent": "General ward",
+                "generalCopay": "20%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±6.5",
+                "exclusions": "Baby well care charges,Infertility treatments\n,Comfort treatments like steam baths\n,Naturopathy\n,Cosmetic procedures",
+                "inclusions": "Pre-existing conditions from day one,Modern treatments (capped at 50% of sum insured)\n,Genetic disorders\n,Ayush treatment (minimum 24 hours hospitalization)\n,Bariatric surgery under certain conditions",
+                "remarks": "Corporate buffer of ₹5 lakhs per family, total cap of ₹50 lakhs,Includes advanced treatments like robotic surgery and stem cell treatments",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹30000",
+                        "copay": "20%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "20%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹100000",
+                        "copay": "20%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "20%"
+                    }
+                }
+            }
+        ]
+    },
+    "SAP Labs India Pvt Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "standard-plan",
+                "name": "Standard Plan",
+                "roomRent": "Single room ac",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Non-FDA approved therapies,Nutritional supplements for autism\nProphylactic vaccinations, except as specified,Experimental treatments",
+                "inclusions": "Developmental support therapies,Psychological and applied behavioral therapies for neurodivergent disordersCoverage for neurodivergent disorders (e.g., Autism, ADHD) up to ₹150,000",
+                "remarks": "Maternity: Enhanced coverage of ₹85,000 for Normal & C-section\nNeurodivergent clause added for treatments and diagnostics\nCOVID-19 provisions include home isolation and treatment guidelines\nAir ambulance coverage and psychiatric acute care support\nPediatric treatment for autism-related conditions covered up to INR 150,000\nHospice cash deductible for 3 days, benefits extended for maternity claims under Health Plus Plans only\nCorporate buffer and sum insured adjustments per family and conditions",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹85000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹85000",
+                        "copay": "0%"
+                    },
+                    "Keratoplasty": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "Keratectomy": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "C3R": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "Infertility": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Lasik": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Gender Reassignment Surgery": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "gold-plan",
+                "name": "Gold Plan",
+                "roomRent": "Single room ac",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Non-FDA approved therapies,Nutritional supplements for autism\nProphylactic vaccinations, except as specified,Experimental treatments",
+                "inclusions": "Developmental support therapies,Psychological and applied behavioral therapies for neurodivergent disordersCoverage for neurodivergent disorders (e.g., Autism, ADHD) up to ₹150,000",
+                "remarks": "Maternity: Enhanced coverage of ₹85,000 for Normal & C-section\nNeurodivergent clause added for treatments and diagnostics\nCOVID-19 provisions include home isolation and treatment guidelines\nAir ambulance coverage and psychiatric acute care support\nPediatric treatment for autism-related conditions covered up to INR 150,000\nHospice cash deductible for 3 days, benefits extended for maternity claims under Health Plus Plans only\nCorporate buffer and sum insured adjustments per family and conditions",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹85000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹85000",
+                        "copay": "0%"
+                    },
+                    "Keratoplasty": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "Keratectomy": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "C3R": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "Infertility": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Lasik": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Gender Reassignment Surgery": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "silver-plan",
+                "name": "Silver plan",
+                "roomRent": "Single room ac",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Non-FDA approved therapies,Nutritional supplements for autism\nProphylactic vaccinations, except as specified,Experimental treatments",
+                "inclusions": "Developmental support therapies,Psychological and applied behavioral therapies for neurodivergent disordersCoverage for neurodivergent disorders (e.g., Autism, ADHD) up to ₹150,000",
+                "remarks": "Maternity: Enhanced coverage of ₹85,000 for Normal & C-section\nNeurodivergent clause added for treatments and diagnostics\nCOVID-19 provisions include home isolation and treatment guidelines\nAir ambulance coverage and psychiatric acute care support\nPediatric treatment for autism-related conditions covered up to INR 150,000\nHospice cash deductible for 3 days, benefits extended for maternity claims under Health Plus Plans only\nCorporate buffer and sum insured adjustments per family and conditions",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹85000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹85000",
+                        "copay": "0%"
+                    },
+                    "Keratoplasty": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "Keratectomy": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "C3R": {
+                        "cap": "₹44000",
+                        "copay": "0%"
+                    },
+                    "Infertility": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Lasik": {
+                        "cap": "₹40000",
+                        "copay": "0%"
+                    },
+                    "Gender Reassignment Surgery": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Ikea India Private Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "No capping",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "Domiciliary hospitalization, non-FDA approved therapies, nutritional supplements for autism, procedures in blacklisted hospitals except emergencies.",
+                "inclusions": "Pre-existing disease waiver from day one, maternity coverage up to two events including surrogacy, infertility treatment coverage, AYUSH treatments on an IPD basis, neurodevelopmental disorder therapies, and modern treatments capped at 50% of sum insured.",
+                "remarks": "Claims settled on scanned documents without attestation; corporate buffer up to ₹2 Cr on family floater basis; in-patient psychiatric care covered; road and air ambulance services are covered; organ donor charges covered excluding cost of organ.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Functional Endoscopic Sinus Surgery (FESS)": {
+                        "cap": "₹35000",
+                        "copay": "0%"
+                    },
+                    "Psychiatric Illness": {
+                        "cap": "₹35000",
+                        "copay": "0%"
+                    },
+                    "Robotic Surgery": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹50 %",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "J P Morgan Services Pvt Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7",
+                "exclusions": "The policy does not cover Enhanced External Counter Pulsation Therapy and related therapies, Hyperbaric Oxygen Therapy, Cochlear Implants, application/insertion/removal procedures on the inner ear, other vaccinations or inoculations, and gender reassignment surgery. It excludes Bariatric/Gastric Bypass/Sleeve Gastrectomy procedures for morbid obesity, Roux-en-Y Bypass. Also excluded are alcohol/drug illness and abuse, breach of law, convalescence, cosmetic procedures, hazardous sports, health check-ups, rest cures, ritual circumcision, self-injury, STD treatments, sterility, war-related injuries, new-born well-baby care, hearing aids, obesity treatments, pre and post-natal care, surrogacy delivery, dental treatments, and voluntary termination of pregnancy",
+                "inclusions": "Covers include mental health, infertility, IVF (under OPD too), maternity up to ₹1,00,000, organ donation costs (excluding the organ), surrogacy up to ₹35,000, and congenital external anomalies under specific conditions.",
+                "remarks": "Special features include: Corporate Buffer up to ₹2.5 Cr for major diseases; Maternity and child care defined extensively including embryo freezing; Critical illness lump-sum benefits; Terrorism coverage included.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Infertility Illness": {
+                        "cap": "₹250000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Deep Brain Stimulation": {
+                        "cap": "₹500000",
+                        "copay": "0%"
+                    },
+                    "Oral Chemotherapy": {
+                        "cap": "₹150000",
+                        "copay": "0%"
+                    },
+                    "Uterine Artery Embolization": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "HIFU": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Psychiatric Illness": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Amazon Development Centre (India) Pvt Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "Single room ac",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5.9",
+                "exclusions": "Hyperbaric Oxygen Therapy, Enhanced External Counter Pulsation Therapy (EECP), Quantum Magnetic Resonance Therapy, Autism treatment, Hazardous Sports, Rest Cure, Ritual Circumcision, Voluntary Termination of Pregnancy, War-related injuries, Cosmetic procedures, Egg Freezing, Alcohol and Drug Abuse, Sexually Transmitted Diseases (STDs), Sterility, Alcohol and Drug Illness, Breech of Law, Convalescence, Dental treatments (except due to accident), Health Check-ups, Pre and Post-Natal care for non-hospitalized patients, and Maternity Complications.",
+                "inclusions": "Mental health, Infertility treatments, All advance treatments up to SI except specified otherwise, Congenital internal conditions, Genetic conditions, COVID and other vaccinations as per guidelines, Organ donation costs (excluding the cost of the organ)",
+                "remarks": "Corporate Buffer up to ₹20 Cr for major diseases, Non-paper-based claims up to ₹2,00,000, Flu vaccinations and diagnostic covers available, Day Care Procedures and Telemedicine allowed, Coverage extends to conditions like mental health, certain disabilities, and has provisions for treatments during temporary hospitalization for COVID-related issues, Provisions for employees with critical illnesses and death-in-hospital clauses",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹90000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹90000",
+                        "copay": "10%"
+                    },
+                    "Psychiatric Illness": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Gender Reassignment Surgery": {
+                        "cap": "₹300000",
+                        "copay": "10%"
+                    },
+                    "Infertility Illness": {
+                        "cap": "₹300000",
+                        "copay": "10%"
+                    },
+                    "Oral Chemotherapy": {
+                        "cap": "₹150000",
+                        "copay": "10%"
+                    },
+                    "Uterine Artery Embolization": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "Asian Paints Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±6.0",
+                "exclusions": "Includes RFQMR, Retrograde intra renal surgery, Toric Lens, KT Laser Prostate, Holter Monitoring, Cosmetic or Plastic Surgery, Alcohol and Drug Abuse, Hazardous Sports, War-related injuries, Pre and Post-Natal (if not hospitalized), Infertility Treatment on trial basis, Investigations and Evaluations.",
+                "inclusions": "Covers obesity and weight control treatments if medically necessary, mental health, genetic conditions, AYUSH treatment in government hospitals, emergency ambulance services up to ₹2,500, and modern treatments covered up to full SI.",
+                "remarks": "Corporate Buffer up to ₹20 Lakhs per family cannot be used for maternity or claims with ailment capping; Maternity benefits include up to ₹150,000 for normal delivery and ₹200,000 for C-section, applicable for the first two deliveries only. Pre-existing diseases are covered without waiting periods.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹150000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹200000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "CBA Services Private Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Bariatric Surgery (unless BMI ≥40 or ≥35 with comorbidities), Cosmetic Surgery without medical necessity, Experimental treatments, Obesity/Weight Control procedures unless medically indicated, Non-prescription supplements.",
+                "inclusions": "Mental health, AYUSH treatment, HIV or AIDS, Well Baby Cover, Maternity Benefits, Animal Bite or Serpent Bite, advanced modern treatments without any sub-limit restrictions.",
+                "remarks": "Bariatric surgery is covered when the BMI is ≥40, or ≥35 for cases with comorbidities; Corporate Buffer of ₹2 Cr available; Pre-existing conditions have waived waiting periods.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹125000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹500000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Aditya Birla Fashion And Retail Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Psychological counseling, Naturopathy, Nuclear weapons-related conditions, cosmetic surgeries without medical indication, spectacles, hearing aids, intentional self-injury, use of drugs/alcohol, war-related perils, etc.",
+                "inclusions": "Covers various modern and advanced treatments, genetic disorders, mental health conditions, HIV/AIDS, AYUSH treatments, terrorism-related hospitalizations, organ transplant donor expenses, and trauma/disease-related dental treatments requiring hospitalization.",
+                "remarks": "Bariatric surgery is covered when the BMI is ≥40, or ≥35 for cases with comorbidities. Waivers on first-year, 30-day waiting periods, and pre-existing conditions. Corporate Buffer available up to ₹40 Lakh per family.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹35000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    },
+                    "Deep Brain Stimulation": {
+                        "cap": "₹50 %",
+                        "copay": "10%"
+                    },
+                    "Balloon Sinuplasty": {
+                        "cap": "₹200000",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "Ntt Data Information Processing Services Pvt Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "grade-1-to-13",
+                "name": "Grade 1 to 13",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5.0",
+                "exclusions": "Psychological counseling not requiring hospitalization, naturopathy, nuclear weapons-related conditions, cosmetic surgeries without medical necessity, intentional self-injury, use of drugs/alcohol, war-related injuries, etc.",
+                "inclusions": "Modern treatments, genetic disorders, mental health conditions, HIV/AIDS cover, organ transplant donor expenses, and various prosthetic and support devices.",
+                "remarks": "Bariatric surgery covered when BMI is ≥40, or ≥35 with comorbidities ,Waivers on first-year, 30-day waiting periods, and pre-existing conditions.air ambulance up to ₹1,00,000 in emergencies. Corporate Buffer available.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹30000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "10%"
+                    },
+                    "Lasik": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            },
+            {
+                "id": "grade-14--to-above",
+                "name": "Grade 14  to Above",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5.0",
+                "exclusions": "Psychological counseling not requiring hospitalization, naturopathy, nuclear weapons-related conditions, cosmetic surgeries without medical necessity, intentional self-injury, use of drugs/alcohol, war-related injuries, etc.",
+                "inclusions": "Modern treatments, genetic disorders, mental health conditions, HIV/AIDS cover, organ transplant donor expenses, and various prosthetic and support devices.",
+                "remarks": "Bariatric surgery covered when BMI is ≥40, or ≥35 with comorbidities ,Waivers on first-year, 30-day waiting periods, and pre-existing conditions.air ambulance up to ₹1,00,000 in emergencies. Corporate Buffer available.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹30000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "10%"
+                    },
+                    "Lasik": {
+                        "cap": "₹50000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "Life Insurance Corporation of India": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "a-cities",
+                "name": "A cities",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±4.0",
+                "exclusions": "Pre-natal and post-natal expenses unless hospitalized; Obesity treatment and its complications; Steam Bath, Shirodhara, Panchakarma unless part of treatment",
+                "inclusions": "Maternity expenses for all family members; AYUSH treatment under specific conditions; HIV coverage; Robotic surgery for specific conditions",
+                "remarks": "GST on room rent is additional; Diagnostic tests have specific limits; Domiciliary expenses for certain conditions covered; Newborns covered from day one under Family Floater Sum Insured",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹70000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹150000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "b-citites",
+                "name": "B Citites",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±4.0",
+                "exclusions": "Pre-natal and post-natal expenses unless hospitalized; Obesity treatment and its complications; Steam Bath, Shirodhara, Panchakarma unless part of treatment",
+                "inclusions": "Maternity expenses for all family members; AYUSH treatment under specific conditions; HIV coverage; Robotic surgery for specific conditions",
+                "remarks": "GST on room rent is additional; Diagnostic tests have specific limits; Domiciliary expenses for certain conditions covered; Newborns covered from day one under Family Floater Sum Insured",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹70000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹150000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "c-cities",
+                "name": "C cities",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±4.0",
+                "exclusions": "Pre-natal and post-natal expenses unless hospitalized; Obesity treatment and its complications; Steam Bath, Shirodhara, Panchakarma unless part of treatment",
+                "inclusions": "Maternity expenses for all family members; AYUSH treatment under specific conditions; HIV coverage; Robotic surgery for specific conditions",
+                "remarks": "GST on room rent is additional; Diagnostic tests have specific limits; Domiciliary expenses for certain conditions covered; Newborns covered from day one under Family Floater Sum Insured",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹70000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹100000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹150000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Bandhan Bank Limited": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "1-lakh",
+                "name": "1 lakh",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "90 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Cosmetic surgeries, gender change treatments; Excluding capped ailments and maternity",
+                "inclusions": "COVID home care, mental illness, congenital diseases; Daycare procedures, modern treatments",
+                "remarks": "No deduction for employee cases of accidental injury/death; Corporate buffer of Rs. 50 lakhs available",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹30000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Hernia": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Inferlity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "2-5-lakh",
+                "name": "2-5 lakh",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "90 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Cosmetic surgeries, gender change treatments; Excluding capped ailments and maternity",
+                "inclusions": "COVID home care, mental illness, congenital diseases; Daycare procedures, modern treatments",
+                "remarks": "No deduction for employee cases of accidental injury/death; Corporate buffer of Rs. 50 lakhs available",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹30000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Hernia": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Inferlity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "WM Global Technology Services Pvt Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "tp1",
+                "name": "TP1",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Cosmetic procedures, pre and post-delivery expenses for surrogacy",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage up to INR 50,000; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000; Air ambulance charges covered; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims, relaxed in case of medical emergencies; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; No capping on cataract for unifocal lens, multifocal lens up to INR 50,000; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "tp2",
+                "name": "TP2",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Cosmetic procedures, pre and post-delivery expenses for surrogacy",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage up to INR 50,000; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000; Air ambulance charges covered; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims, relaxed in case of medical emergencies; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; No capping on cataract for unifocal lens, multifocal lens up to INR 50,000; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "tp3",
+                "name": "TP3",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Cosmetic procedures, pre and post-delivery expenses for surrogacy",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage up to INR 50,000; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000; Air ambulance charges covered; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims, relaxed in case of medical emergencies; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; No capping on cataract for unifocal lens, multifocal lens up to INR 50,000; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "tp4",
+                "name": "TP4",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Cosmetic procedures, pre and post-delivery expenses for surrogacy",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage up to INR 50,000; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000; Air ambulance charges covered; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims, relaxed in case of medical emergencies; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; No capping on cataract for unifocal lens, multifocal lens up to INR 50,000; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "tp5",
+                "name": "TP5",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Cosmetic procedures, pre and post-delivery expenses for surrogacy",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage up to INR 50,000; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000; Air ambulance charges covered; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims, relaxed in case of medical emergencies; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; No capping on cataract for unifocal lens, multifocal lens up to INR 50,000; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "tp6",
+                "name": "TP6",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Cosmetic procedures, pre and post-delivery expenses for surrogacy",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage up to INR 50,000; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000; Air ambulance charges covered; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims, relaxed in case of medical emergencies; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; No capping on cataract for unifocal lens, multifocal lens up to INR 50,000; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Ayurveda": {
+                        "cap": "₹25 %",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "CISCO SYSTEMS (INDIA) PVT. LTD": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "core",
+                "name": "Core",
+                "roomRent": "Single room ac",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "War-related injuries, cosmetic surgeries, domiciliary hospitalization, experimental treatment, etc.",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage with no sublimit; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000 intra-city and INR 10,000 inter-city; Air ambulance up to INR 100,000; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims waived; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    },
+                    "Inferlity": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "plan-a",
+                "name": "Plan A",
+                "roomRent": "Single room ac",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "War-related injuries, cosmetic surgeries, domiciliary hospitalization, experimental treatment, etc.",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage with no sublimit; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000 intra-city and INR 10,000 inter-city; Air ambulance up to INR 100,000; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims waived; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Inferlity": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "plan-b",
+                "name": "Plan B",
+                "roomRent": "Single room ac",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "War-related injuries, cosmetic surgeries, domiciliary hospitalization, experimental treatment, etc.",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage with no sublimit; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000 intra-city and INR 10,000 inter-city; Air ambulance up to INR 100,000; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims waived; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Inferlity": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "plan-b-plus",
+                "name": "Plan B plus",
+                "roomRent": "Single room ac",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "War-related injuries, cosmetic surgeries, domiciliary hospitalization, experimental treatment, etc.",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage with no sublimit; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000 intra-city and INR 10,000 inter-city; Air ambulance up to INR 100,000; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims waived; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Inferlity": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "plan-c",
+                "name": "Plan C",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "War-related injuries, cosmetic surgeries, domiciliary hospitalization, experimental treatment, etc.",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage with no sublimit; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000 intra-city and INR 10,000 inter-city; Air ambulance up to INR 100,000; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims waived; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Inferlity": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "plan-c-plus",
+                "name": "Plan C Plus",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "War-related injuries, cosmetic surgeries, domiciliary hospitalization, experimental treatment, etc.",
+                "inclusions": "COVID home care, mental health, congenital diseases, robotic surgeries, advanced medical treatment, maternity coverage, Ayurvedic treatments, biopsy, newborn baby coverage, CAPD, PET Scan, Cyber-knife, Oral Chemotherapy, Monoclonal Antibody treatment, Autism treatment, HIV/AIDS treatment, gender reassignment, LGBT coverage, corporate buffer",
+                "remarks": "Coverage for same-sex/domestic partners with a lock-in of 2 years; Corporate buffer of INR 50 Lakhs for critical conditions; Cataract coverage with no sublimit; Home care treatment for COVID-19 up to INR 15,000 per person; Ambulance charges up to INR 5,000 intra-city and INR 10,000 inter-city; Air ambulance up to INR 100,000; Optometrist prescriptions from Lenskart and Titan Eye accepted without additional prescription. 9-month waiting period for maternity claims waived; Dual maternity coverage for Walmart employees; Enhanced maternity and infertility limits available; Listed mental illnesses covered up to INR 25,000 for OPD.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Inferlity": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "SOCIETE GENERALE GLOBAL SOLUTION CENTRE PVT LTD": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Misuse of drugs/alcohol, cosmetic dental treatments",
+                "inclusions": "HIV/AIDS, Hepatitis, Mental Health, Neurodiverse Conditions, Ayurveda & Homeopathy",
+                "remarks": "Coverage includes various advanced treatments like gender reassignment. Corporate Buffer: Rs. 1 crore with a limit of 4 times the Floater Sum Insured per family. Policy Period: 01/07/2025 to 30/06/2026. Family Definition: Employee + Spouse + 2 dependent Children (up to 25 years) + 2 Dependent Parents/Parents-in-law (up to 80 years). Special Conditions: Gender Reassignment and LGBTQ Buffer of Rs. 20 lakhs; Surrogacy covered up to maternity limit; No age limit for neurodiverse children coverage. Sub-limits Waived: Room Charges, Medical Practitioners Fees, and other hospitalisation expenses. Additional Coverage: Includes emergency ambulance charges, internal congenital diseases, and day care procedures as per standard GMC policy.  Co-Pay Buy Back - 10% Co-pay buy back option (Employees opting for Co-pay Buy Back will have the same Co-pay in Base, Top-up and Parent policies)",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹75000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "Kyndryl": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "No Room rent restriction",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±6",
+                "exclusions": "De-addiction program, confinement for primary purpose, obstructive sleep apnoea, breach of law, convalescence, cosmetic, dental, egg freezing, alcohol drug abuse, hazardous sports, health check, rest cure, ritual circumcision, STD, voluntary termination of pregnancy, war, alcohol drug illness, sleep studies CPAP, Alzheimer's disease, hearing aid, self-injury, donor expenses, hyperbaric oxygen therapy, enhanced external counter pulsation therapy, peritoneal dialysis, quantum magnetic resonance therapy",
+                "inclusions": "Congenital diseases, gender realignment surgery, HIV, behavioral and psychiatric treatments, family planning complications, resuscitation expenses, suicide cases, ARMD, maternity, infertility treatments, domiciliary expenses, critical illness, COVID-19, ASD, family planning procedures, Parkinson’s, Alzheimer’s, gene therapy, sleep apnoea",
+                "remarks": "Coverage for both inpatient and outpatient procedures, including a wide range of day-care procedures and enhancements for 2025 & 2026",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹60000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹60000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "TLG India Pvt Ltd - Pgagencies_Resources": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "1+3-resources",
+                "name": "1+3 Resources",
+                "roomRent": "Single room ac",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±7.5",
+                "exclusions": "Alcohol drug illness, breach of law, convalescence, cosmetic, egg freezing, hazardous sports, health check, rest cure, ritual circumcision, self-injury, STD, sterility, war, congenital external, congenital external life-threatening conditions, alcohol drug abuse, voluntary termination of pregnancy, surrogacy delivery, IVF for infertility, newborn well-baby care, enhanced external counter pulsation therapy, hyperbaric oxygen therapy, gender reassignment surgery, quantum magnetic resonance therapy, animal bite, HIV/AIDS",
+                "inclusions": "Congenital internal diseases, behavioral and psychiatric treatments, family planning complications, resuscitation expenses, suicide cases, ARMD, maternity (with specified limits), infertility treatments (excluding IVF), domiciliary expenses, critical illness, COVID-19, ASD, family planning procedures, Parkinson’s, Alzheimer’s, gene therapy, sleep apnoea",
+                "remarks": "Coverage includes comprehensive benefits for both inpatient and outpatient procedures, home care for COVID-19, and enhancements for 2025 & 2026. Bariatric surgery is covered when BMI is ≥ 40, or ≥ 35 for co-morbid cases. Specific conditions apply for certain treatments and geographical limits.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹60000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹80000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            },
+            {
+                "id": "1+5-resources",
+                "name": "1+5 Resources",
+                "roomRent": "Single room ac",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±5",
+                "exclusions": "Alcohol drug illness, breach of law, convalescence, cosmetic, egg freezing, hazardous sports, health check, rest cure, ritual circumcision, self-injury, STD, sterility, war, congenital external, congenital external life-threatening conditions, alcohol drug abuse, voluntary termination of pregnancy, surrogacy delivery, IVF for infertility, newborn well-baby care, enhanced external counter pulsation therapy, hyperbaric oxygen therapy, gender reassignment surgery, quantum magnetic resonance therapy, animal bite, HIV/AIDS",
+                "inclusions": "Congenital internal diseases, behavioral and psychiatric treatments, family planning complications, resuscitation expenses, suicide cases, ARMD, maternity (with specified limits), infertility treatments (excluding IVF), domiciliary expenses, critical illness, COVID-19, ASD, family planning procedures, Parkinson’s, Alzheimer’s, gene therapy, sleep apnoea",
+                "remarks": "Coverage includes comprehensive benefits for both inpatient and outpatient procedures, home care for COVID-19, and enhancements for 2025 & 2026. Bariatric surgery is covered when BMI is ≥ 40, or ≥ 35 for co-morbid cases. Specific conditions apply for certain treatments and geographical limits.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹60000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹80000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "TLG India Pvt Ltd - Sapient": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "10%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "30 days",
+                "postOp": "60 days",
+                "refractivePower": "±2",
+                "exclusions": "Hyperbaric Oxygen Therapy, Quantum Magnetic Resonance Therapy, Enhanced External Counter Pulsation Therapy, Gender Reassignment Surgery, Alcohol/Drug Illness, Breach of Law, Congenital External (Life-Threatening), Convalescence, Cosmetic, Dental, Egg Freezing, Hazardous Sports, Health Check, Rest Cure, Ritual Circumcision, Self Injury, STD, Sterility, War, Congenital External, Alcohol/Drug Abuse, Surrogacy Delivery, Newborn Well Baby Care, Maternity Complications, Hearing Aid, HIV/AIDS",
+                "inclusions": "Pre-existing diseases covered from Day One",
+                "remarks": "Room rent limit does not include other charges like Nursing Charges, OT Charges, Doctor Fees, etc. Bariatric surgery is covered when BMI is ≥ 40, or ≥ 35 for co-morbid cases. Mid-term inclusion of dependent members is applicable with two enrollment periods: one at the start of the policy term and another after 3 months. Mortuary charges are covered up to INR 10,000 per incident. Artificial life/limb support and Haemodialysis/Radiotherapy are covered under the Floater Sum Insured.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹40000",
+                        "copay": "10%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹100000",
+                        "copay": "10%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹100000",
+                        "copay": "10%"
+                    },
+                    "Infertlity": {
+                        "cap": "₹100000",
+                        "copay": "10%"
+                    },
+                    "intraviteral injection": {
+                        "cap": "₹75000",
+                        "copay": "10%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "10%"
+                    }
+                }
+            }
+        ]
+    },
+    "Alstom transport India Ltd": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "no-plan",
+                "name": "NO PLAN",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "60 days",
+                "postOp": "90 days",
+                "refractivePower": "±7",
+                "exclusions": "OPD treatments/procedures, non-approved drugs, non-admissible amounts, room rent restrictions for higher category rooms",
+                "inclusions": "Pre-existing diseases, congenital internal diseases, standalone blood transfusion, daycare procedures, advanced cancer treatments, HIV under specific conditions, income protection benefit, emergency ambulance charges, bereavement coverage, animal/serpent attack treatment, Lasik surgery for eye correction more than +/- 7, nasal sinus surgeries, gamma knife treatment, stem cell transplantation, robotic surgery, laser eye treatment",
+                "remarks": "Corporate buffer of INR 7,500,000 with primary buffer of INR 50 lakhs and secondary buffer of INR 2,500,000 for critical illness. Cross combination coverage in case of demise of one dependent parent/parent-in-law. Surrogacy covered within maternity limit for first child only. Advanced cancer treatments covered up to Sum Insured, top-up policy triggers after Base Policy SI is exhausted. Modern treatments listed by New India standard sub-limits apply, except for cancer treatments. Coverage for same gender partner subject to corporate declaration. AYUSH treatments admissible up to 25% of Sum Insured in recognized institutions. Income protection benefit for loss of income due to illness. Emergency ambulance charges covered as per actuals. Widow/Widower coverage continues till policy expiry.",
+                "treatments": {
+                    "Maternity normal": {
+                        "cap": "₹60000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹85000",
+                        "copay": "0%"
+                    },
+                    "Infertlity": {
+                        "cap": "₹150000",
+                        "copay": "0%"
+                    },
+                    "Nasal Sinus Surgeries": {
+                        "cap": "₹35000",
+                        "copay": "0%"
+                    },
+                    "septoplasty": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    },
+    "JSW STEEL LIMITED": {
+        "hasGrades": true,
+        "grades": [
+            {
+                "id": "l01-to-l12",
+                "name": "L01 to L12",
+                "roomRent": "Twin Sharing",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "0 days",
+                "postOp": "0 days",
+                "refractivePower": "±7",
+                "exclusions": "Non-approved drugs, OPD treatments/procedures, room rent restrictions for higher category rooms",
+                "inclusions": "Pre-existing diseases from Day 1, congenital diseases, new joiners from Day 1, domiciliary hospitalization, advanced treatments/procedures, genetic disorders, biological drugs, invasive diagnostics, ambulance expenses up to INR 3,000",
+                "remarks": "Midterm increases in sum insured allowed in case of appraisal or error. Coverage for same gender partner subject to corporate declaration. AYUSH treatments admissible up to 25% of SI. Emergency ambulance charges as per actuals. Room eligibility varies by grade.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹15 %",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Infertlity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "l13-to-l15",
+                "name": "L13 to L15",
+                "roomRent": "Semi Deluxe",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "0 days",
+                "postOp": "0 days",
+                "refractivePower": "±7",
+                "exclusions": "Non-approved drugs, OPD treatments/procedures, room rent restrictions for higher category rooms",
+                "inclusions": "Pre-existing diseases from Day 1, congenital diseases, new joiners from Day 1, domiciliary hospitalization, advanced treatments/procedures, genetic disorders, biological drugs, invasive diagnostics, ambulance expenses up to INR 3,000",
+                "remarks": "Midterm increases in sum insured allowed in case of appraisal or error. Coverage for same gender partner subject to corporate declaration. AYUSH treatments admissible up to 25% of SI. Emergency ambulance charges as per actuals. Room eligibility varies by grade.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹15 %",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Infertlity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "l16-and-above",
+                "name": "L16 and Above",
+                "roomRent": "Deluxe",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "0 days",
+                "postOp": "0 days",
+                "refractivePower": "±7",
+                "exclusions": "Non-approved drugs, OPD treatments/procedures, room rent restrictions for higher category rooms",
+                "inclusions": "Pre-existing diseases from Day 1, congenital diseases, new joiners from Day 1, domiciliary hospitalization, advanced treatments/procedures, genetic disorders, biological drugs, invasive diagnostics, ambulance expenses up to INR 3,000",
+                "remarks": "Midterm increases in sum insured allowed in case of appraisal or error. Coverage for same gender partner subject to corporate declaration. AYUSH treatments admissible up to 25% of SI. Emergency ambulance charges as per actuals. Room eligibility varies by grade.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹15 %",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Infertlity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            },
+            {
+                "id": "l19-and-above",
+                "name": "L19 and above",
+                "roomRent": "0",
+                "generalCopay": "0%",
+                "intimationCopay": "0% if not done within 3 days",
+                "preOp": "0 days",
+                "postOp": "0 days",
+                "refractivePower": "±7",
+                "exclusions": "Non-approved drugs, OPD treatments/procedures, room rent restrictions for higher category rooms",
+                "inclusions": "Pre-existing diseases from Day 1, congenital diseases, new joiners from Day 1, domiciliary hospitalization, advanced treatments/procedures, genetic disorders, biological drugs, invasive diagnostics, ambulance expenses up to INR 3,000",
+                "remarks": "Midterm increases in sum insured allowed in case of appraisal or error. Coverage for same gender partner subject to corporate declaration. AYUSH treatments admissible up to 25% of SI. Emergency ambulance charges as per actuals. Room eligibility varies by grade.",
+                "treatments": {
+                    "Cataract": {
+                        "cap": "₹15 %",
+                        "copay": "0%"
+                    },
+                    "Maternity normal": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Maternity c section": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Infertlity": {
+                        "cap": "₹50000",
+                        "copay": "0%"
+                    },
+                    "Other dieases": {
+                        "cap": "₹0",
+                        "copay": "0%"
+                    }
+                }
+            }
+        ]
+    }
+}
