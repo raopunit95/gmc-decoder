@@ -1,117 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GMC Policy Decoder | MediBuddy</title>
-    <meta name="description" content="Decode your corporate health insurance benefits instantly. Understand your GMC policy coverage, copay, and treatment limits.">
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQTQXJHCQC"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-XQTQXJHCQC');
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GMC Policy Decoder</title>
+<meta name="description" content="Look up what your corporate group health policy actually covers for a specific condition or treatment — covered amount, copay, room rent, and pre/post hospitalisation limits.">
+<meta name="theme-color" content="#0b57d0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b57d0'/%3E%3Cpath d='M13 7h6v6h6v6h-6v6h-6v-6H7v-6h6z' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="header-content">
-            <h1>🏥 GMC Policy Decoder</h1>
-            <p>Understand your corporate health insurance benefits instantly</p>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">✚</span>
+      <div class="brand-text">
+        <strong>GMC Policy Decoder</strong>
+        <span>Know exactly what your corporate cover pays for</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ───────────────────────── Search ───────────────────────── -->
+  <section id="searchView" class="view is-active" aria-label="Policy search">
+
+    <div class="panel">
+      <div class="panel-head">
+        <h1>Check your coverage</h1>
+        <p>Pick your company, plan grade and the condition you're looking up.</p>
+      </div>
+
+      <!-- Step 1 — Corporate -->
+      <div class="field" data-step="1">
+        <label class="field-label" for="corporateInput">
+          <span class="step-dot">1</span> Corporate name
+        </label>
+        <div class="combo">
+          <input id="corporateInput" class="control" type="text" autocomplete="off"
+                 role="combobox" aria-expanded="false" aria-controls="corporateList"
+                 placeholder="Start typing your company name…">
+          <button type="button" class="combo-clear" data-clear="corporate" hidden aria-label="Clear company">×</button>
+          <ul id="corporateList" class="options" role="listbox" hidden></ul>
         </div>
-    </header>
+        <p class="field-hint" id="corporateHint">Type at least one letter to see matches.</p>
+      </div>
 
-    <!-- Main Content -->
-    <main class="container">
-        <!-- Home Screen -->
-        <div id="homeScreen" class="screen active">
-            
-            <!-- Corporate Name Card -->
-            <div class="card">
-                <div class="card-header">
-                    <h2>Your Company</h2>
-                    <button id="editCorporateBtn" class="btn-edit" onclick="toggleCorporateEdit()">
-                        ✏️ Edit
-                    </button>
-                </div>
-                
-                <!-- Display Mode -->
-                <div id="corporateDisplay" class="company-badge">
-                    <p class="company-name" id="selectedCorporateName">Tata Consultancy Services</p>
-                </div>
+      <!-- Step 2 — Grade -->
+      <div class="field" data-step="2" id="gradeField" hidden>
+        <label class="field-label">
+          <span class="step-dot">2</span> Plan grade
+          <span class="badge-optional" id="gradeOptionalBadge" hidden>not applicable</span>
+        </label>
+        <div class="chips" id="gradeChips" role="radiogroup" aria-label="Plan grade"></div>
+        <p class="field-hint" id="gradeHint"></p>
+      </div>
 
-                <!-- Edit Mode -->
-                <div id="corporateEdit" class="edit-section" style="display: none;">
-                    <input 
-                        type="text" 
-                        id="corporateInput" 
-                        class="input-field" 
-                        placeholder="Search company name..."
-                        oninput="filterCorporates()"
-                    >
-                    <div id="corporateDropdown" class="dropdown"></div>
-                    <div class="edit-actions">
-                        <button onclick="confirmCorporate()" class="btn-confirm">Confirm</button>
-                        <button onclick="cancelCorporateEdit()" class="btn-cancel">Cancel</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Grade Selection Card -->
-            <div class="card" id="gradeCard">
-                <h2>Select Your Policy Grade</h2>
-                <div id="gradeSection"></div>
-            </div>
-
-            <!-- Treatment Search Card -->
-            <div class="card" id="treatmentCard" style="display: none;">
-                <h2>Search Treatment (Optional)</h2>
-                <div class="search-wrapper">
-                    <input 
-                        type="text" 
-                        id="treatmentSearch" 
-                        class="input-field" 
-                        placeholder="e.g., Cataract, Joint Replacement, Maternity..."
-                        oninput="filterTreatments()"
-                        onfocus="showTreatmentDropdown()"
-                    >
-                    <span class="search-icon">🔍</span>
-                </div>
-                <div id="treatmentDropdown" class="dropdown"></div>
-            </div>
-
-            <!-- Decode Button -->
-            <button id="decodeBtn" class="btn-primary" onclick="decodeBenefits()" disabled>
-                🔍 Decode My Benefits
-            </button>
+      <!-- Step 3 — Treatment -->
+      <div class="field" data-step="3" id="treatmentField" hidden>
+        <label class="field-label" for="treatmentInput">
+          <span class="step-dot">3</span> Condition / treatment name
+        </label>
+        <div class="combo">
+          <input id="treatmentInput" class="control" type="text" autocomplete="off"
+                 role="combobox" aria-expanded="false" aria-controls="treatmentList"
+                 placeholder="e.g. Cataract, Maternity, Knee-Replacement…">
+          <button type="button" class="combo-clear" data-clear="treatment" hidden aria-label="Clear treatment">×</button>
+          <ul id="treatmentList" class="options" role="listbox" hidden></ul>
         </div>
+        <p class="field-hint" id="treatmentHint"></p>
+      </div>
 
-        <!-- Results Screen -->
-        <div id="resultsScreen" class="screen">
-            <button onclick="goBack()" class="btn-back">← Back to Search</button>
-            
-            <div id="resultsContent"></div>
+      <button id="decodeBtn" class="btn-primary" type="button" disabled>Decode my benefits</button>
+    </div>
 
-            <!-- CTA Card -->
-            <div class="card cta-card">
-                <h3>Need Surgery Consultation?</h3>
-                <p>Book at our 1,200+ partnered hospitals with no upfront payment</p>
-                <a href="https://www.medibuddy.in" target="_blank" class="btn-cta">
-                    Schedule Surgery Consultation →
-                </a>
-            </div>
-        </div>
-    </main>
+    <p class="dataline" id="dataline"></p>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>Built by Punit Yadav | <a href="https://linkedin.com/in/punit-yadav-2ab6a013b" target="_blank">LinkedIn</a></p>
-    </footer>
+  <!-- ───────────────────────── Result ───────────────────────── -->
+  <section id="resultView" class="view" aria-label="Coverage details" aria-live="polite">
+    <button id="backBtn" class="btn-back" type="button">← New search</button>
+    <div id="resultBody"></div>
 
-    <script src="script.js"></script>
+    <div class="panel cta">
+      <h3>Planning a surgery?</h3>
+      <p>Get a consultation and cashless admission at 1,200+ partner hospitals — no upfront payment.</p>
+      <a class="btn-cta" href="https://www.medibuddy.in" target="_blank" rel="noopener">Talk to a care expert →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>Coverage figures are indicative and read from your employer's uploaded policy configuration. Final approval is always subject to the policy terms, waiting periods and insurer authorisation.</p>
+  <p class="foot-credit">Built by <a href="https://linkedin.com/in/punit-yadav-2ab6a013b" target="_blank" rel="noopener">Punit Yadav</a> · <a href="https://github.com/raopunit95/gmc-decoder" target="_blank" rel="noopener">Source on GitHub</a></p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
